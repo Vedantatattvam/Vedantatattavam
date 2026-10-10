@@ -1,0 +1,202 @@
+import { GranthaChapter } from "./types";
+
+export const PRASNA_KHANDA_1: GranthaChapter = {
+  id: "prasna-khanda-1",
+  chapterTitle: "First Praśna: The Origin of Creatures — Rayi, Prāṇa, and the Two Paths",
+  chapterTitleSanskrit: "प्रथमः प्रश्नः — कबन्धिकृत्यः प्रजापतिसृष्टिप्रश्नः (रयिप्राणविचारः)",
+  summary: "Six sincere seekers approach Maharṣi Pippalāda with fuel in hand. After a year of tapas, brahmacarya, and śraddhā, Kabandhī Kātyāyana asks: 'From where are all these creatures born?' Pippalāda reveals that Prajāpati created the primal polarity of Rayi (matter/moon/form) and Prāṇa (life/sun/energy). He elucidates the Cosmic Year, the northern path of the sun (Uttarāyaṇa/Devayāna) leading to immortality, the southern path (Dakṣiṇāyana/Pitṛyāṇa) leading to rebirth, the cyclical nature of time, food, and the attainment of the pure Brahma-loka.",
+  verses: [
+    {
+      id: "prasna-1-1",
+      number: "Praśna 1, Mantra 1",
+      title: "The Six Seekers of Brahman Approach Ṛṣi Pippalāda",
+      mulaSanskrit: "सुकेशा च भारद्वाजः शैब्यश्च सत्यकामः सौर्यायणी च गार्ग्यः कौसल्यश्चाश्वलायनो भार्गवो वैदर्भिः कबन्धी कात्यायनस्ते हैते ब्रह्मपरा ब्रह्मनिष्ठाः परं ब्रह्मान्वेषमाणा एष ह वै तत्सर्वं वक्ष्यतीति ते ह समित्पाणयो भगवन्तं पिप्पलादमुपसन्नाः ॥ १ ॥",
+      mulaIast: "sukeśā ca bhāradvājaḥ śaibyaś ca satyakāmaḥ sauryāyaṇī ca gārgyaḥ kausalyaś cāśvalāyano bhārgavo vaidarbhiḥ kabandhī kātyāyanas te haite brahmaparā brahmaniṣṭhāḥ paraṁ brahmānveṣamāṇā eṣa ha vai tat sarvaṁ vakṣyatīti te ha samitpāṇayo bhagavantaṁ pippalādam upasannāḥ || 1 ||",
+      padaccheda: "सुकेशा, च, भारद्वाजः, शैब्यः, च, सत्यकामः, सौर्यायणी, च, गार्ग्यः, कौसल्यः, च, आश्वलायनः, भार्गवः, वैदर्भिः, कबन्धी, कात्यायनः, ते, ह, एते, ब्रह्मपराः, ब्रह्मनिष्ठाः, परम्, ब्रह्म, अन्वेषमाणाः, एषः, ह, वै, तत्, सर्वम्, वक्ष्यति, इति, ते, ह, समित्पाणयः, भगवन्तम्, पिप्पलादम्, उपसन्नाः",
+      anvaya: "सुकेशा च भारद्वाजः, शैब्यः च सत्यकामः, सौर्यायणी च गार्ग्यः, कौसल्यः च आश्वलायनः, भार्गवः वैदर्भिः, कबन्धी कात्यायनः, ते ह एते ब्रह्मपराः ब्रह्मनिष्ठाः परं ब्रह्मान्वेषमाणाः 'एष ह वै तत् सर्वं वक्ष्यति' इति (मत्वा) ते समित्पाणयो भगवन्तं पिप्पलादम् उपसन्नाः ।",
+      bhashyaExtract: "ब्रह्मपरा अपरब्रह्मविषयाणि कर्माणि तत्पराः, ब्रह्मनिष्ठास्तदनुष्ठानपराः परं निर्विशेषं ब्रह्मान्वेषमाणाः... समित्पाणयो गुरुमुपजग्मुः ।",
+      englishTranslation: "Sukeśā, son of Bharadvāja; Satyakāma, son of Śibi; Sauryāyaṇī, belonging to the family of Garga; Kausalya, son of Aśvala; Bhārgava, of the lineage of Vidarbha; and Kabandhī, descendant of Katya — all these, devoted to Brahman and steadfast in Brahman, seeking the Supreme Brahman, thought: 'He indeed will declare all that to us.' Carrying sacrificial fuel in their hands, they approached the revered sage Pippalāda.",
+      commentaryNotes: "Sets the stage for the Upaniṣad with qualified adhikārins (aspirants) approaching a realized Guru in accordance with Śruti decorum (carrying firewood, indicating willingness to serve with humility)."
+    },
+    {
+      id: "prasna-1-2",
+      number: "Praśna 1, Mantra 2",
+      title: "The Injunction of a Year of Tapas, Brahmacarya, and Śraddhā",
+      mulaSanskrit: "तान्ह स ऋषिरुवाच भूय एव तपसा ब्रह्मचर्येण श्रद्धया संवत्सरं संवत्स्यथ यथाकामं प्रश्नान्पृच्छत यदि विज्ञास्यामः सर्वं ह वो वक्ष्याम इति ॥ २ ॥",
+      mulaIast: "tān ha sa ṛṣir uvāca bhūya eva tapasā brahmacaryeṇa śraddhayā saṁvatsaraṁ saṁvatsyatha yathākāmaṁ praśnān pṛcchata yadi vijñāsyāmaḥ sarvaṁ ha vo vakṣyāma iti || 2 ||",
+      padaccheda: "तान्, ह, सः, ऋषिः, उवाच, भूयः, एव, तपसा, ब्रह्मचर्येण, श्रद्धया, संवत्सरम्, संवत्स्यथ, यथाकामम्, प्रश्नान्, पृच्छत, यदि, विज्ञास्यामः, सर्वम्, ह, वः, वक्ष्यामः, इति",
+      anvaya: "सः ऋषिः तान् ह उवाच—भूयः एव तपसा ब्रह्मचर्येण श्रद्धया संवत्सरं संवत्स्यथ । (ततः) यथाकामं प्रश्नान् पृच्छत । यदि विज्ञास्यामः, वः सर्वं ह वक्ष्यामः इति ।",
+      bhashyaExtract: "भूयः पूर्वमपि कृतमेव तपस्तथापि पुनरपि तपसा इन्द्रियजयेन, ब्रह्मचर्येण, श्रद्धया च युक्तः सन् संवत्सरं संवत्स्यथ । 'यदि विज्ञास्यामः' इति ऋषेर्मदानुत्सेकातिशयो दर्शितः ।",
+      englishTranslation: "To them the sage said: 'Live with me for another year in austerity (tapas), self-restraint (brahmacarya), and faith (śraddhā). Then ask whatever questions you desire; if we know the answers, we shall surely tell you everything.'",
+      commentaryNotes: "Demonstrates that spiritual knowledge requires mental purification (citta-śuddhi) through protracted self-discipline and faith before instruction can bear fruit. Pippalāda's words also reflect profound humility."
+    },
+    {
+      id: "prasna-1-3",
+      number: "Praśna 1, Mantra 3",
+      title: "The Inquiry of Kabandhī Kātyāyana on the Origin of Creatures",
+      mulaSanskrit: "अथ कबन्धी कात्यायन उपेत्य पप्रच्छ भगवन्कुतो ह वा इमाः प्रजाः प्रजायन्त इति ॥ ३ ॥",
+      mulaIast: "atha kabandhī kātyāyana upetya papraccha bhagavan kuto ha vā imāḥ prajāḥ prajāyanta iti || 3 ||",
+      padaccheda: "अथ, कबन्धी, कात्यायनः, उपेत्य, पप्रच्छ, भगवन्, कुतः, ह, वा, इमाः, प्रजाः, प्रजायन्ते, इति",
+      anvaya: "अथ कबन्धी कात्यायनः उपेत्य पप्रच्छ—भगवन् ! कुतः ह वा इमाः प्रजाः प्रजायन्ते इति ।",
+      bhashyaExtract: "संवत्सरातिक्रमे कबन्धी कात्यायनः पप्रच्छ—कुतो ह वा कस्मात् खलु कारणाद् इमाः ब्राह्मणाद्याः प्रजाः प्रजायन्ते उत्पद्यन्ते इति ।",
+      englishTranslation: "Then, after the year had passed, Kabandhī Kātyāyana approached and asked: 'Venerable sir, from what source indeed are all these living creatures born?'",
+      commentaryNotes: "The first cosmological question seeks to understand the root cause of cosmic manifestation and the emergence of embodied life."
+    },
+    {
+      id: "prasna-1-4",
+      number: "Praśna 1, Mantra 4",
+      title: "The Creation of the Primal Pair: Rayi (Matter) and Prāṇa (Energy)",
+      mulaSanskrit: "तस्मै स होवाच प्रजाकामो वै प्रजापतिः स तपोऽतप्यत स तपस्तप्त्वा स मिथुनमुत्पादयते रयिं च प्राणं चेत्येतौ मे बहुधा प्रजाः करिष्यत इति ॥ ४ ॥",
+      mulaIast: "tasmai sa hovāca prajākāmo vai prajāpatiḥ sa tapo'tapyata sa tapas taptvā sa mithunam utpādayate rayiṁ ca prāṇaṁ cety etau me bahudhā prajāḥ kariṣyata iti || 4 ||",
+      padaccheda: "तस्मै, सः, ह, उवाच, प्रजाकामः, वै, प्रजापतिः, सः, तपः, अतप्यत, सः, तपः, तप्त्वा, सः, मिथुनम्, उत्पादstate/उत्पादयते, रयिम्, च, प्राणम्, च, इति, एतौ, मे, बहुधा, प्रजाः, करिष्यतः, इति",
+      anvaya: "सः तस्मै ह उवाच—प्रजाकामः वै प्रजापतिः सः तपः अतप्यत, सः तपः तप्त्वा सः मिथुनम् उत्पादयते—रयिं च प्राणं च इति, 'एतौ मे बहुधा प्रजाः करिष्यतः' इति ।",
+      bhashyaExtract: "प्रजापतिः हिरण्यगर्भः प्रजाकामो भूत्वा तपः सृष्टिविषयामालोचनामकरोत् । स आलोच्य मिथुनं द्वन्द्वमुत्पादितवान्—रयिं चन्द्रमसम् अन्नं च, प्राणं चाग्निं भोक्तारम् ।",
+      englishTranslation: "To him the sage replied: 'Prajāpati, the Lord of creation, desired offspring. He performed tapas (brooded in creative contemplation). Having practiced tapas, He produced a pair — Rayi (matter/form/food) and Prāṇa (life/energy/eater) — thinking: 'These two shall produce creatures for me in manifold ways.'",
+      commentaryNotes: "Introduces the foundational duality of the cosmos: Prāṇa (the conscious animating force, consumer, dynamic energy) and Rayi (passive substance, food, form, materiality)."
+    },
+    {
+      id: "prasna-1-5",
+      number: "Praśna 1, Mantra 5",
+      title: "The Sun as Prāṇa, the Moon as Rayi, and Form as Substance",
+      mulaSanskrit: "आदित्यो ह वै प्राणो रयिरेव चन्द्रमा रयिर्वा एतत्सर्वं यन्मूर्तं चामूर्तं च तस्मान्मूर्तिरेव रयिः ॥ ५ ॥",
+      mulaIast: "ādityo ha vai prāṇo rayir eva candramā rayir vā etat sarvaṁ yan mūrtaṁ cāmūrtaṁ ca tasmān mūrtir eva rayiḥ || 5 ||",
+      padaccheda: "आदित्यः, ह, वै, प्राणः, रयिः, एव, चन्द्रमाः, रयिः, वा, एतत्, सर्वम्, यत्, मूर्तम्, च, अमूर्तम्, च, तस्मात्, मूर्तिः, एव, रयिः",
+      anvaya: "आदित्यः ह वै प्राणः, चन्द्रमाः एव रयिः । यत् मूर्तं च अमूर्तं च एतत् सर्वं वै रयिः, तस्मात् मूर्तिः एव रयिः ।",
+      bhashyaExtract: "आदित्यः प्राणो भोक्ता अग्निः, चन्द्रमा रयिरन्नम् । यत् स्थूलं सूक्ष्मं च तत् सर्वमन्नमेव, तस्मात् मूर्तिरेव रयिः ।",
+      englishTranslation: "The Sun indeed is Prāṇa; the Moon is Rayi. Rayi verily is all this that is formed (gross) and formless (subtle); therefore whatever has form is Rayi.",
+      commentaryNotes: "Equates the celestial Sun with universal cosmic Life and the Moon with universal matter. All perceptible forms constitute Rayi, the objective medium of expression."
+    },
+    {
+      id: "prasna-1-6",
+      number: "Praśna 1, Mantra 6",
+      title: "The Sun Gathering All Vital Breaths into His Rays",
+      mulaSanskrit: "अथादित्य उदयन्यत्प्राचीं दिशं प्रविशति तेन प्राच्यान्प्राणान्रश्मिषु संनिधत्ते । यद्दक्षिणां यत्प्रतीचीं यदुदीचीं यदधो यदूर्ध्वं यदन्तरा दिशो यत्सर्वं, प्रकाशयति तेन, सर्वान्प्राणान्रश्मिषु संनिधत्ते ॥ ६ ॥",
+      mulaIast: "athāditya udayan yat prācīṁ diśaṁ praviśati tena prācyān prāṇān raśmiṣu saṁnidhatte | yad dakṣiṇāṁ yat pratīcīṁ yad udīcīṁ yad adho yad ūrdhvaṁ yad antarā diśo yat sarvaṁ, prakāśayati tena, sarvān prāṇān raśmiṣu saṁnidhatte || 6 ||",
+      padaccheda: "अथ, आदित्यः, उदयन्, यत्, प्राचीम्, दिशम्, प्रविशति, तेन, प्राच्यान्, प्राणान्, रश्मिषु, संनिधत्ते, यत्, दक्षिणाम्, यत्, प्रतीचीम्, यत्, उदीचीम्, यत्, अधः, यत्, ऊर्ध्वम्, यत्, अन्तरा, दिशः, यत्, सर्वम्, प्रकाशयति, तेन, सर्वान्, प्राणान्, रश्मिषु, संनिधत्ते",
+      anvaya: "अथ आदित्यः उदयन् यत् प्राचीं दिशं प्रविशति तेन प्राच्यान् प्राणान् रश्मिषु संनिधत्ते । यत् दक्षिणां यत् प्रतीचीं यत् उदीचीं यत् अधः यत् ऊर्ध्वं यत् अन्तरा दिशो यत् सर्वं प्रकाशयति, तेन सर्वान् प्राणान् रश्मिषु संनिधत्ते ।",
+      bhashyaExtract: "आदित्य उदयन् सर्वदिक्षु स्थितान् प्राणिनः स्वप्रकाशेन व्याप्नोति, तेषां प्राणान् आत्मरश्मिषु निवेशयति, आत्मभूतानेव करोति ।",
+      englishTranslation: "Now, as the Sun rises and enters the eastern quarter, by that he gathers the vital breaths of all living beings in the east into his rays. As he illumines the south, the west, the north, below, above, and the intermediate quarters, by that he gathers all living breaths into his rays.",
+      commentaryNotes: "The physical solar dawn is viewed as a spiritual awakening wherein the universal Solar Prāṇa energizes and harmonizes the individual prāṇas of all beings."
+    },
+    {
+      id: "prasna-1-7",
+      number: "Praśna 1, Mantra 7",
+      title: "The Universal Fire Rising as the Cosmic Person",
+      mulaSanskrit: "स एष वैश्वानरो विश्वरूपः प्राणोऽग्निरुदयते । तदेतदृचाभ्युक्तम् ॥ ७ ॥",
+      mulaIast: "sa eṣa vaiśvānaro viśvarūpaḥ prāṇo'gnir udayate | tad etad ṛcābhyuktam || 7 ||",
+      padaccheda: "सः, एषः, वैश्वानरः, विश्वरूपः, प्राणः, अग्निः, उदयते, तत्, एतत्, ऋचा, अभ्युक्तम्",
+      anvaya: "सः एषः वैश्वानरः विश्वरूपः प्राणः अग्निः उदयते । तत् एतत् ऋचा अभ्युक्तम् ।",
+      bhashyaExtract: "स एष वैश्वानरः सर्वात्मा विश्वरूपः प्राणः प्रत्यहमुदेति । तस्मिन्नेवार्थे मन्त्रो भवति ।",
+      englishTranslation: "He rises as the universal Self of all (Vaiśvānara), assuming all forms (Viśvarūpa), as Prāṇa and as Fire. This has been declared by the Ṛgveda verse:",
+      commentaryNotes: "Identifies the Sun not merely as a celestial sphere, but as the Cosmic Fire-Breath sustaining the universe."
+    },
+    {
+      id: "prasna-1-8",
+      number: "Praśna 1, Mantra 8",
+      title: "The Ṛgvedic Hymn to the Thousand-Rayed Solar Prāṇa",
+      mulaSanskrit: "विश्वरूपं हरिणं जातवेदसं परायणं ज्योतिरेकं तपन्तम् । सहस्ररश्मिः शतधा वर्तमानः प्राणः प्रजानामुदयत्येष सूर्यः ॥ ८ ॥",
+      mulaIast: "viśvarūpaṁ hariṇaṁ jātavedasaṁ parāyaṇaṁ jyotir ekaṁ tapantam | sahasraraśmiḥ śatadhā vartamānaḥ prāṇaḥ prajānām udayaty eṣa sūryaḥ || 8 ||",
+      padaccheda: "विश्वरूपम्, हरिणम्, जातवेदसम्, परायणम्, ज्योतिः, एकम्, तपन्तम्, सहस्ररश्मिः, शतधा, वर्तमानः, प्राणः, प्रजानाम्, उदयति, एषः, सूर्यः",
+      anvaya: "विश्वरूपं हरिणं जातवेदसं परायणम् एकं ज्योतिः तपन्तं (विद्वांसः जानन्ति) । सहस्ररश्मिः शतधा वर्तमानः प्रजानां प्राणः एष सूर्यः उदयति ।",
+      bhashyaExtract: "विश्वरूपं सर्वरूपम्, हरिणं रश्मिवन्तं हरणशीलं वा, जातवेदसं सर्वज्ञम्, परायणं सर्वप्राणिनाश्रयम्, एकं द्वितीयहीनं तपन्तम्... एष सूर्य उदयति ।",
+      englishTranslation: "Possessing all forms, radiant with golden rays, all-knowing, the supreme goal, the sole light, blazing with heat — endowed with a thousand rays and existing in a hundred ways, this Sun rises as the Life of all creatures.",
+      commentaryNotes: "A celebrated Vedic verse praising Sūrya as the tangible embodiment of the divine Light and the sustaining Life-breath of the entire world."
+    },
+    {
+      id: "prasna-1-9",
+      number: "Praśna 1, Mantra 9",
+      title: "Prajāpati as the Year: The Southern Path (Dakṣiṇāyana / Pitṛyāṇa)",
+      mulaSanskrit: "संवत्सरो वै प्रजापतिस्तस्यायने दक्षिणं चोत्तरं च । तद्ये ह वै तदिष्टापूर्ते कृतमित्युपासते ते चान्द्रमसमेव लोकमभिजयन्ते । त एव पुनरावर्तन्ते तस्मादेत ऋषयः प्रजाकामा दक्षिणं प्रतिपद्यन्ते । एष ह वै रयिर्यः पितृयाणः ॥ ९ ॥",
+      mulaIast: "saṁvatsaro vai prajāpatis tasyāyane dakṣiṇaṁ cottaraṁ ca | tad ye ha vai tad iṣṭāpūrte kṛtam ity upāsate te cāndramasam eva lokam abhijayante | ta eva punar āvartante tasmād eta ṛṣayaḥ prajākāmā dakṣiṇaṁ pratipadyante | eṣa ha vai rayir yaḥ pitṛyāṇaḥ || 9 ||",
+      padaccheda: "संवत्सरः, वै, प्रजापतिः, तस्य, अयने, दक्षिणम्, च, उत्तरम्, च, तत्, ये, ह, वै, तत्, इष्टापूर्ते, कृतम्, इति, उपासते, ते, चान्द्रमसम्, एव, लोकम्, अभिजयन्ते, ते, एव, पुनः, आवर्तन्ते, तस्मात्, एते, ऋषयः, प्रजाकामाः, दक्षिणम्, प्रतिपद्यन्ते, एषः, ह, वै, रयिः, यः, पितृयाणः",
+      anvaya: "संवत्सरः वै प्रजापतिः । तस्य दक्षिणं च उत्तरं च द्वे अयने स्तः । तत्र ये ह वै 'इष्टापूर्तं कृतम्' इति उपासते ते चान्द्रमसं लोकम् एव अभिजयन्ते । ते एव पुनः आवर्तन्ते । तस्मात् एते प्रजाकामाः ऋषयः दक्षिणं प्रतिपद्यन्ते । यः पितृयाणः एष ह वै रयिः ।",
+      bhashyaExtract: "संवत्सरः कालरूपः प्रजापतिः । तस्यायने द्वौ मार्गौ दक्षिणमुत्तरं च । इष्टापूर्तकारिणः केवलकर्मिणश्चान्द्रमसं लोकमवाप्य क्षीणे कर्मणि पुनरावर्तन्ते । एष रयिमार्गः ।",
+      englishTranslation: "The Year verily is Prajāpati; of it there are two paths — the southern and the northern. Those who perform sacrificial works (iṣṭa) and public welfare deeds (pūrta), regarding them as the highest achievement, win only the lunar world. They indeed return again. Therefore, those sages who desire offspring follow the southern path. This path of the ancestors (pitṛyāṇa) is indeed Rayi (matter).",
+      commentaryNotes: "Explains the cycle of saṁsāra for those who engage in selfish action or purely external rituals without spiritual contemplation: they ascend to the lunar realm and must reincarnate once their merit is exhausted."
+    },
+    {
+      id: "prasna-1-10",
+      number: "Praśna 1, Mantra 10",
+      title: "The Northern Path (Uttarāyaṇa / Devayāna) Leading to Non-Return",
+      mulaSanskrit: "अथोत्तरेण तपसा ब्रह्मचर्येण श्रद्धया विद्ययात्मानमन्विष्यादित्यमभिजयन्ते । एतद्वै प्राणानामायतनमेतदमृतमभयमेतत्परायणमेतस्मान्न पुनरावर्तन्त इत्येष निरोधः । तदेष श्लोकः ॥ १० ॥",
+      mulaIast: "athottareṇa tapasā brahmacaryeṇa śraddhayā vidyayātmānam anviṣyādityam abhijayante | etad vai prāṇānām āyatanam etad amṛtam abhayam etat parāyaṇam etasmān na punar āvartanta ity eṣa nirodhaḥ | tad eṣa ślokaḥ || 10 ||",
+      padaccheda: "अथ, उत्तरेण, तपसा, ब्रह्मचर्येण, श्रद्धया, विद्यया, आत्मानम्, अन्विष्य, आदित्यम्, अभिजयन्ते, एतत्, वै, प्राणानाम्, आयतनम्, एतत्, अमृतम्, अभयम्, एतत्, परायणम्, एस्मात्, न, पुनः, आवर्तन्ते, इति, एषः, निरोधः, तत्, एषः, श्लोकः",
+      anvaya: "अथ उत्तरेण (मार्गेण) तपसा ब्रह्मचर्येण श्रद्धया विद्यया आत्मानम् अन्विष्य आदित्यम् अभिजयन्ते । एतद् वै प्राणानाम् आयतनम्, एतद् अमृतम् अभयम्, एतत् परायणम्, एतस्मात् न पुनः आवर्तन्ते इति एष निरोधः । तत् एष श्लोकः ।",
+      bhashyaExtract: "उत्तरेण मार्गेण आत्मज्ञाननिष्ठा आदित्यमभिजयन्ते । एतत्सर्वप्राणानामास्पदम्, अमृतमविनाशि, अभयं भयरहितम्, परं स्थानम् । अतो न पुनरावर्तन्ते ।",
+      englishTranslation: "But by the northern path, seeking the Self through austerity, self-restraint, faith, and knowledge, they win the Sun. This verily is the refuge of all vital breaths; this is immortal, fearless, and the supreme goal. From this they do not return, for this is the end of the cycle. Concerning this, there is the following verse:",
+      commentaryNotes: "The Devayāna (path of light) followed by seekers of higher wisdom who transcend desire for physical progeny and worldliness, culminating in liberation from the cycle of rebirth."
+    },
+    {
+      id: "prasna-1-11",
+      number: "Praśna 1, Mantra 11",
+      title: "The Five-Footed Father of Twelve Forms",
+      mulaSanskrit: "पञ्चपादं पितरं द्वादशाकृतिं दिव आहुः परे अर्धे पुरीषिणम् । अथेमे अन्य उ परे विचक्षणं सप्तचक्रे षडर आहुरर्पितमिति ॥ ११ ॥",
+      mulaIast: "pañcapādaṁ pitaraṁ dvādaśākṛtiṁ diva āhuḥ pare ardhe purīṣiṇam | atheme anya u pare vicakṣaṇaṁ saptacakre ṣaḍara āhur arpitam iti || 11 ||",
+      padaccheda: "पञ्चपादम्, पितरम्, द्वादशाकृतिम्, दिवः, आहुः, परे, अर्धे, पुरीषिणम्, अथ, इमे, अन्ये, उ, परे, विचक्षणम्, सप्तचक्रे, षडरे, आहुः, अर्पितम्, इति",
+      anvaya: "तं पञ्चपादं द्वादशाकृतिं पुरीषिणं दिवः परे अर्धे पितरम् आहुः । अथ अन्ये इमे उ परे विचक्षणं षडरे सप्तचक्रे अर्पितम् आहुः इति ।",
+      bhashyaExtract: "पञ्चपादं पञ्चर्तवः पादा इव यस्य, द्वादशाकृतिं द्वादश मासा आकृतयो यस्य, पुरीषिणं जलवन्तम् आदित्यम् । अन्ये तु षडरे षड्ऋतुयुक्ते संवत्सरचक्रे सप्ततुरगयुक्ते सर्वमर्पितमाहुः ।",
+      englishTranslation: "Some declare him to be the Father with five feet (the five seasons, combining hemanta and śiśira) and twelve forms (the twelve months), residing in the upper half of heaven as the source of rain. Others declare him to be the all-knowing one set in a chariot of seven wheels (seven solar horses or color rays) with six spokes (the six seasons).",
+      commentaryNotes: "A poetic allegorical verse from the Ṛgveda (1.164.12) describing the solar Year as the divine progenitor of time and seasonal rejuvenation."
+    },
+    {
+      id: "prasna-1-12",
+      number: "Praśna 1, Mantra 12",
+      title: "The Month as Prajāpati: Dark Half (Rayi) and Bright Half (Prāṇa)",
+      mulaSanskrit: "मासो वै प्रजापतिस्तस्य कृष्णपक्ष एव रयिः शुक्लः प्राणस्तस्मादेत ऋषयः शुक्ल इष्टं कुर्वन्तीतर इतरस्मिन् ॥ १२ ॥",
+      mulaIast: "māso vai prajāpatis tasya kṛṣṇapakṣa eva rayiḥ śuklaḥ prāṇas tasmād eta ṛṣayaḥ śukla iṣṭaṁ kurvantītara itarasmin || 12 ||",
+      padaccheda: "मासः, वै, प्रजापतिः, तस्य, कृष्णपक्षः, एव, रयिः, शुक्लः, प्राणः, तस्मात्, एते, ऋषयः, शुक्ले, इष्टम्, कुर्वन्ति, इतरः, इतरस्मिन्",
+      anvaya: "मासः वै प्रजापतिः । तस्य कृष्णपक्षः एव रयिः, शुक्लः प्राणः । तस्मात् एते ऋषयः शुक्ले इष्टं कुर्वन्ति, इतर इतरस्मिन् ।",
+      bhashyaExtract: "मासात्मकोऽपि प्रजापतिः । कृष्णपक्षो रयिरन्नम्, शुक्लपक्षः प्राणो भोक्ता । ज्ञानिनः सर्वं प्राणमयं पश्यन्तः शुक्ले एव कुर्वन्ति, अज्ञानिनः कृष्णपक्षे कुर्वन्तोऽपि शुक्लेतरम् ।",
+      englishTranslation: "The Month verily is Prajāpati. Its dark fortnight is Rayi (matter/food); its bright fortnight is Prāṇa (life/energy). Therefore some sages perform sacrifice in the bright fortnight, while others perform it in the other.",
+      commentaryNotes: "Applies the cosmic duality of Prāṇa-Rayi down to the lunar cycle. The knower of Prāṇa sees the fullness of life even in the dark phase, whereas the ritualist depends on external auspicious timing."
+    },
+    {
+      id: "prasna-1-13",
+      number: "Praśna 1, Mantra 13",
+      title: "Day and Night as Prajāpati: The Discipline of Vital Energy",
+      mulaSanskrit: "अहोरात्रो वै प्रजापतिस्तस्याहरेव प्राणो रात्रिरेव रयिः प्राणं वा एते प्रस्कन्दन्ति ये दिवा रत्या संयुज्यन्ते ब्रह्मचर्यमेव तद्यद्रात्रौ रत्या संयुज्यन्ते ॥ १३ ॥",
+      mulaIast: "ahorātro vai prajāpatis tasyāhar eva prāṇo rātrir eva rayiḥ prāṇaṁ vā ete praskandanti ye divā ratyā saṁyujyante brahmacaryam eva tad yad rātrau ratyā saṁyujyante || 13 ||",
+      padaccheda: "अहोरात्रः, वै, प्रजापतिः, तस्य, अहः, एव, प्राणः, रात्रिः, एव, रयिः, प्राणम्, वा, एते, प्रस्कन्दन्ति, ये, दिवा, रत्या, संयुज्यन्ते, ब्रह्मचर्यम्, एव, तत्, यत्, रात्रौ, रत्या, संयुज्यन्ते",
+      anvaya: "अहोरात्रः वै प्रजापतिः । तस्य अहः एव प्राणः, रात्रिः एव रयिः । ये दिवा रत्या संयुज्यन्ते ते प्राणं वै प्रस्कन्दन्ति । यत् रात्रौ रत्या संयुज्यन्ते तत् ब्रह्मचर्यम् एव ।",
+      bhashyaExtract: "अहोरात्रमपि प्रजापतिः । अहः प्राणः, रात्रिः रयिः । ये दिवा मैथुनं सेवन्ते ते प्राणमुच्छिन्दन्ति, रात्रौ तु ऋतुकाले गच्छन्तो ब्रह्मचारिण एव भवन्ति ।",
+      englishTranslation: "Day and night verily are Prajāpati. Day indeed is Prāṇa; night indeed is Rayi. Those who indulge in sensual union by day waste their life-energy; but when they unite at night in season, that is counted verily as self-restraint (brahmacarya).",
+      commentaryNotes: "Applies the Prāṇa-Rayi polarity to the daily rhythm of day and night, underscoring the conservation and sanctification of vital creative energy."
+    },
+    {
+      id: "prasna-1-14",
+      number: "Praśna 1, Mantra 14",
+      title: "Food as Prajāpati and the Genesis of All Beings",
+      mulaSanskrit: "अन्नं वै प्रजापतिस्ततो ह वै तद्रेतस्तस्मादिमाः प्रजाः प्रजायन्त इति ॥ १४ ॥",
+      mulaIast: "annaṁ vai prajāpatis tato ha vai tad retas tasmād imāḥ prajāḥ prajāyanta iti || 14 ||",
+      padaccheda: "अन्नम्, वै, प्रजापतिः, ततः, ह, वै, तत्, रेतः, तस्मात्, इमाः, प्रजाः, प्रजायन्ते, इति",
+      anvaya: "अन्नं वै प्रजापतिः । ततः ह वै तत् रेतः (भवति), तस्माद् इमाः प्रजाः प्रजायन्ते इति ।",
+      bhashyaExtract: "अन्नमेव साक्षात्प्रजापतिः । अन्नाद्रेतः सम्भवति, रेतस इमाः स्थावरजङ्गमाः प्रजा उत्पद्यन्ते । अतो मूलं सर्वस्य प्रजापतिरेव ।",
+      englishTranslation: "Food (Anna) verily is Prajāpati. From that food indeed is produced the seed (retas), and from that seed all these living creatures are born.",
+      commentaryNotes: "Completes the causal descent: Prajāpati -> Prāṇa & Rayi -> Year -> Month -> Day & Night -> Food -> Reproductive Seed -> Embodied Creatures."
+    },
+    {
+      id: "prasna-1-15",
+      number: "Praśna 1, Mantra 15",
+      title: "The Vow of Prajāpati and the Attainment of the World of Brahman",
+      mulaSanskrit: "तद्ये ह वै तत्प्रजापतिव्रतं चरन्ति ते मिथुनमुत्पादयन्ते । तेषामेवैष ब्रह्मलोको येषां तपो ब्रह्मचर्यं येषु सत्यं प्रतिष्ठितम् ॥ १५ ॥",
+      mulaIast: "tad ye ha vai tat prajāpativrataṁ caranti te mithunam utpādayante | teṣām evaiṣa brahmaloko yeṣāṁ tapo brahmacaryaṁ yeṣu satyaṁ pratiṣṭhitam || 15 ||",
+      padaccheda: "तत्, ये, ह, वै, तत्, प्रजापतिव्रतम्, चरन्ति, ते, मिथुनम्, उत्पादयन्ते, तेषाम्, एव, एषः, ब्रह्मलोकः, येषाम्, तपः, ब्रह्मचर्यम्, येषु, सत्यम्, प्रतिष्ठितम्",
+      anvaya: "तत् ये ह वै तत् प्रजापतिव्रतं चरन्ति ते मिथुनम् उत्पादयन्ते । येषां तपः ब्रह्मचर्यं येषु सत्यं प्रतिष्ठितम्, तेषाम् एव एष ब्रह्मलोकः ।",
+      bhashyaExtract: "ये प्रजापतिव्रतं ऋतुगमनादिकं चरन्ति ते पुत्रदुहितृरूपं मिथुनमुत्पादयन्ति । तेषां शुद्धकर्मणां चन्द्रलोको भवति, येषु तपः सत्यं ब्रह्मचर्यं च प्रतिष्ठितम् ।",
+      englishTranslation: "Therefore, those who observe this sacred vow of Prajāpati produce pairs of offspring. But to those alone belongs that world of Brahman (the realm of purity and light) in whom austerity, self-restraint, and truth are firmly established.",
+      commentaryNotes: "Distinguishes between householders who fulfill the cosmic cycle honorably through righteous family life and those who elevate consciousness through uncompromising tapas, celibacy, and truth."
+    },
+    {
+      id: "prasna-1-16",
+      number: "Praśna 1, Mantra 16",
+      title: "The Stainless Realm of Supreme Brahman Free from Deceit",
+      mulaSanskrit: "तेषामसौ विरजो ब्रह्मलोको न येषु जिह्ममनृतं न माया चेति ॥ १६ ॥",
+      mulaIast: "teṣām asau virajo brahmaloko na yeṣu jihmam anṛtaṁ na māyā ceti || 16 ||",
+      padaccheda: "तेषाम्, असौ, विरजः, ब्रह्मलोकः, न, येषु, जिह्मम्, अनृतम्, न, माया, च, इति",
+      anvaya: "येषु जिह्मं न, अनृतं न, माया च न, तेषाम् असौ विरजः ब्रह्मलोकः इति ।",
+      bhashyaExtract: "जिह्मं कौटिल्यम्, अनृतं मिथ्याभाषणम्, माया कपटभावः । एतद्दोषत्रयरहितानां निष्कामानां विरजो विशुद्धः परो ब्रह्मलोको भवति ।",
+      englishTranslation: "To them alone belongs that stainless world of Brahman (the supreme unconditioned realm), in whom there is no crookedness, no falsehood, and no deception.",
+      commentaryNotes: "Concluding mantra of the First Praśna. Utter purity of heart, transparency, and freedom from duplicity (māyā) are the sine qua non for entering the spotless realm of highest truth."
+    }
+  ]
+};

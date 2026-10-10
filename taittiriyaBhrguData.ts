@@ -1,0 +1,190 @@
+import { GranthaChapter } from "./types";
+
+export const TAITTIRIYA_BHRGU_CHAPTER: GranthaChapter = {
+  id: "taittiriya-bhrgu",
+  chapterTitle: "Bhṛguvallī (Anuvākas 1–10: Bhārgavī Vāruṇī Vidyā, Sacred Vows, & The Ecstatic Cosmic Sāman)",
+  chapterTitleSanskrit: "भृगुवल्ली (अनुवाकाः १-१०: भार्गवी वारुणी विद्या, अन्नव्रतानि, सर्वात्मभावः सामगानं च)",
+  summary: "The Bhṛguvallī depicts the practical pedagogy of Self-inquiry through the dialogue between Sage Bhṛgu and his father Varuṇa. Through repeated introspective contemplation (Tapas), Bhṛgu progressively transcends the sheaths of Food (Anna), Vital Breath (Prāṇa), Mind (Manas), and Intellect (Vijñāna), culminating in the realization of Bliss (Ānanda) as Brahman. It enjoins sacred vows honoring food as cosmic nourishment and concludes with the ecstatic Sāman hymn of cosmic non-dual identity (Hā3vu, Aham annam!).",
+  verses: [
+    {
+      id: "tait-bhr-1-1",
+      number: "Bhṛguvallī 1.1",
+      title: "Bhṛgu Approaches Varuṇa: The Cosmic Definition of Brahman (Yato Vā Imāni Bhūtāni)",
+      mulaSanskrit: "ॐ सह नाववतु । सह नौ भुनक्तु । सह वीर्यं करवावहै । तेजस्वि नावधीतमस्तु मा विद्विषावहै ॥ ॐ शान्तिः शान्तिः शान्तिः ॥ भृगुर्वै वारुणिः । वरुणं पितरमुपससार । अधीहि भगवो ब्रह्मेति । तस्मा एतत्प्रोवाच । अन्नं प्राणं चक्षुः श्रोत्रं मनो वाचमिति । तं होवाच । यतो वा इमानि भूतानि जायन्ते । येन जातानि जीवन्ति । यत्प्रयन्त्यभिसंविशन्ति । तद्विजिज्ञासस्व । तद्ब्रह्मेति । स तपोऽतप्यत । स तपस्तप्त्वा ॥ १ ॥",
+      mulaIast: "oṁ saha nāv avatu | saha nau bhunaktu | saha vīryaṁ karavāvahai | tejasvi nāv adhītam astu mā vidviṣāvahai || oṁ śāntiḥ śāntiḥ śāntiḥ || bhṛgur vai vāruṇiḥ | varuṇaṁ pitaram upasasāra | adhīhi bhagavo brahmeti | tasmā etat provāca | annaṁ prāṇaṁ cakṣuḥ śrotraṁ mano vācam iti | taṁ hovāca | yato vā imāni bhūtāni jāyante | yena jātāni jīvanti | yat prayanty abhisaṁviśanti | tad vijijñāsasva | tad brahmeti | sa tapo'tapyata | sa tapas taptvā || 1 ||",
+      padaccheda: "ॐ, सह, नौ, अवतु, सह, नौ, भुनक्तु, सह, वीर्यम्, करवावहै, तेजस्वि, नौ, अधीतम्, अस्तु, मा, विद्विषावहै, ॐ, शान्तिः, शान्तिः, शान्तिः, भृगुः, वै, वारुणिः, वरुणम्, पितरम्, उपससार, अधीहि, भगवः, ब्रह्म, इति, तस्मै, एतत्, प्रोवाच, अन्नम्, प्राणम्, चक्षुः, श्रोत्रम्, मनः, वाचम्, इति, तम्, ह, उवाच, यतः, वै, इमानि, भूतानि, जायन्ते, येन, जातानि, जीवन्ति, यत्, प्रयन्ति, अभिसंविशन्ति, तत्, विजिज्ञासस्व, तत्, ब्रह्म, इति, सः, तपः, अतप्यत, सः, तपः, तप्त्वा",
+      anvaya: "वारुणिः भृगुः वै पितरं वरुणं उपससार—'भगवः, ब्रह्म अधीहि' इति । तस्मै एतत् प्रोवाच—'अन्नं, प्राणं, चक्षुः, श्रोत्रं, मनो, वाचम्' इति । तं ह उवाच—'यतः वै इमानि भूतानि जायन्ते, येन जातानि जीवन्ति, यत् प्रयन्ति अभिसंविशन्ति, तत् विजिज्ञासस्व, तत् ब्रह्म' इति । सः तपः अतप्यत, सः तपः तप्त्वा...",
+      bhashyaExtract: "वरुणपुत्रो भृगुर्ब्रह्म जिज्ञासुः सन् पितरमुपगतवान् । पिता तस्मै द्वारभूतानि साधनानि प्रोवाच—अन्नप्राणादीनि । ततो ब्रह्मणस्तटस्थलक्षणमुक्तवान्—जन्माद्यस्य यत इति सूत्रोक्तवत् यस्माद् भूतानि जायन्ते येन च जीवन्ति यस्मिंश्च लीयन्ते तद् ब्रह्मेति । ततः स भृगुस्तप एकाग्रतां कृत्वा...",
+      englishTranslation: "Om! May He protect us both! May He nourish us both! May we work together with great vigor! May our learning be resplendent! May there be no enmity between us! Om, Peace, Peace, Peace! Bhṛgu, the son of Varuṇa, approached his father Varuṇa and said: 'Venerable sire, teach me Brahman!' Unto him the father declared: 'Food, vital breath, eye, ear, mind, and speech are the gateways!' Then he told him: 'That from which verily all these beings are born; That by which, once born, they are sustained in life; That into which they depart and merge in the end—seek to know That thoroughly! That is Brahman!' He practiced deep contemplative inquiry (Tapas). Having practiced Tapas...",
+      commentaryNotes: "The classical definition of Brahman as the material and efficient cause (Janmādyasya yataḥ - Brahmasūtra 1.1.2). Varuṇa does not spoon-feed the answer; he provides the compass and instructs Bhṛgu to discover the Reality through personal meditation (Tapas)."
+    },
+    {
+      id: "tait-bhr-2-1",
+      number: "Bhṛguvallī 2.1",
+      title: "First Awakening: Food as Brahman & Renewed Call to Tapas",
+      mulaSanskrit: "अन्नं ब्रह्मेति व्यजानात् । अन्नाद्ध्येव खल्विमानि भूतानि जायन्ते । अन्नेन जातानि जीवन्ति । अन्नं प्रयन्त्यभिसंविशन्तीति । तद्विज्ञाय । पुनरेव वरुणं पितरमुपससार । अधीहि भगवो ब्रह्मेति । तं होवाच । तपसा ब्रह्म विजिज्ञासस्व । तपो ब्रह्मेति । स तपोऽतप्यत । स तपस्तप्त्वा ॥ १ ॥",
+      mulaIast: "annaṁ brahmeti vyajānāt | annād dhy eva khalv imāni bhūtāni jāyante | annena jātāni jīvanti | annaṁ prayanty abhisaṁviśantīti | tad vijñāya | punar eva varuṇaṁ pitaram upasasāra | adhīhi bhagavo brahmeti | taṁ hovāca | tapasā brahma vijijñāsasva | tapo brahmeti | sa tapo'tapyata | sa tapas taptvā || 1 ||",
+      padaccheda: "अन्नम्, ब्रह्म, इति, व्यजानात्, अन्नात्, हि, एव, खलु, इमानि, भूतानि, जायन्ते, अन्नेन, जातानि, जीवन्ति, अन्नम्, प्रयन्ति, अभिसंविशन्ति, इति, तत्, विज्ञाय, पुनः, एव, वरुणम्, पितरम्, उपससार, अधीहि, भगवः, ब्रह्म, इति, तम्, ह, उवाच, तपसा, ब्रह्म, विजिज्ञासस्व, तपः, ब्रह्म, इति, सः, तपः, अतप्यत, सः, तपः, तप्त्वा",
+      anvaya: "अन्नं ब्रह्म इति व्यजानात् । अन्नात् हि एव खलु इमानि भूतानि जायन्ते, अन्नेन जातानि जीवन्ति, अन्नं प्रयन्ति अभिसंविशन्ति इति । तत् विज्ञाय, पुनः एव पितरं वरुणं उपससार—'भगवः, ब्रह्म अधीहि' इति । तं ह उवाच—'तपसा ब्रह्म विजिज्ञासस्व, तपः ब्रह्म' इति । सः तपः अतप्यत, सः तपः तप्त्वा...",
+      bhashyaExtract: "स्थूलदृष्ट्या सर्वभूतानामन्नादेवोत्पत्त्यादि दृष्ट्वाऽन्नमेव ब्रह्मेति निश्चितवान् । किन्तु तस्यानित्यत्वं विनाशित्वं च ज्ञात्वा पुनरपि पितरमुपससार । पितोवाच—तपसैव साधनभूतेन निश्चिनुष्व, तपो हि ब्रह्मणो मुख्यमुपायभूतम् ।",
+      englishTranslation: "He realized: 'Food is Brahman!' For from food verily are all these beings born; by food, being born, do they live; and into food do they depart and merge! Having known that, he again approached his father Varuṇa: 'Venerable sire, teach me Brahman!' Unto him the father replied: 'Through Tapas (focused inner contemplation) seek to know Brahman! Tapas itself is Brahman!' He practiced Tapas again. Having practiced Tapas...",
+      commentaryNotes: "Anna explains physical existence, yet because it is material and subject to decay, Bhṛgu perceives its limitation and returns to delve deeper."
+    },
+    {
+      id: "tait-bhr-3-1",
+      number: "Bhṛguvallī 3.1",
+      title: "Second Awakening: Prāṇa as Brahman & Further Contemplation",
+      mulaSanskrit: "प्राणो ब्रह्मेति व्यजानात् । प्राणाद्ध्येव खल्विमानि भूतानि जायन्ते । प्राणेन जातानि जीवन्ति । प्राणं प्रयन्त्यभिसंविशन्तीति । तद्विज्ञाय । पुनरेव वरुणं पितरमुपससार । अधीही भगवो ब्रह्मेति । तं होवाच । तपसा ब्रह्म विजिज्ञासस्व । तपो ब्रह्मेति । स तपोऽतप्यत । स तपस्तप्त्वा ॥ १ ॥",
+      mulaIast: "prāṇo brahmeti vyajānāt | prāṇād dhy eva khalv imāni bhūtāni jāyante | prāṇena jātāni jīvanti | prāṇaṁ prayanty abhisaṁviśantīti | tad vijñāya | punar eva varuṇaṁ pitaram upasasāra | adhīhi bhagavo brahmeti | taṁ hovāca | tapasā brahma vijijñāsasva | tapo brahmeti | sa tapo'tapyata | sa tapas taptvā || 1 ||",
+      padaccheda: "प्राणः, ब्रह्म, इति, व्यजानात्, प्राणात्, हि, एव, खलु, इमानि, भूतानि, जायन्ते, प्राणेन, जातानि, जीवन्ति, प्राणम्, प्रयन्ति, अभिसंविशन्ति, इति, तत्, विज्ञाय, पुनः, एव, वरुणम्, पितरम्, उपससार, अधीहि, भगवः, ब्रह्म, इति, तम्, ह, उवाच, तपसा, ब्रह्म, विजिज्ञासस्व, तपः, ब्रह्म, इति, सः, तपः, अतप्यत, सः, तपः, तप्त्वा",
+      anvaya: "प्राणः ब्रह्म इति व्यजानात् । प्राणात् हि एव खलु इमानि भूतानि जायन्ते, प्राणेन जातानि जीवन्ति, प्राणं प्रयन्ति अभिसंविशन्ति इति । तत् विज्ञाय, पुनः एव पितरं वरुणं उपससार—'भगवः, ब्रह्म अधीहि' इति । तं ह उवाच—'तपसा ब्रह्म विजिज्ञासस्व, तपः ब्रह्म' इति । सः तपः अतप्यत, सः तपः तप्त्वा...",
+      bhashyaExtract: "प्राणो हि जीवनहेतुरिति प्राणे ब्रह्मबुद्धिमकरोत् । किन्तु प्राणस्याप्यचेतनत्वं क्षुत्पिपासादिदोषवत्त्वं दृष्ट्वा पुनर्जिशासा जाता ।",
+      englishTranslation: "He realized: 'Vital Breath (Prāṇa) is Brahman!' For from Prāṇa verily are all these beings born; by Prāṇa, being born, do they live; and into Prāṇa do they depart and merge! Having known that, he again approached his father Varuṇa: 'Venerable sire, teach me Brahman!' Unto him the father replied: 'Through Tapas seek to know Brahman! Tapas itself is Brahman!' He practiced Tapas again. Having practiced Tapas...",
+      commentaryNotes: "Prāṇa animates the inert body, but being non-conscious and subject to hunger and thirst, it cannot be the ultimate unchanging reality."
+    },
+    {
+      id: "tait-bhr-4-1",
+      number: "Bhṛguvallī 4.1",
+      title: "Third Awakening: Mind (Manas) as Brahman & Further Inquiry",
+      mulaSanskrit: "मनो ब्रह्मेति व्यजानात् । मनसो ह्येव खल्विमानि भूतानि जायन्ते । मनसा जातानि जीवन्ति । मनः प्रयन्त्यभिसंविशन्तीति । तद्विज्ञाय । पुनरेव वरुणं पितरमुससार । अधीहि भगवो ब्रह्मेति । तं होवाच । तपसा ब्रह्म विजिज्ञासस्व । तपो ब्रह्मेति । स तपोऽतप्यत । स तपस्तप्त्वा ॥ १ ॥",
+      mulaIast: "mano brahmeti vyajānāt | manaso hy eva khalv imāni bhūtāni jāyante | manasā jātāni jīvanti | manaḥ prayanty abhisaṁviśantīti | tad vijñāya | punar eva varuṇaṁ pitaram upasasāra | adhīhi bhagavo brahmeti | taṁ hovāca | tapasā brahma vijijñāsasva | tapo brahmeti | sa tapo'tapyata | sa tapas taptvā || 1 ||",
+      padaccheda: "मनः, ब्रह्म, इति, व्यजानात्, मनसः, हि, एव, खलु, इमानि, भूतानि, जायन्ते, मनसा, जातानि, जीवन्ति, मनः, प्रयन्ति, अभिसंविशन्ति, इति, तत्, विज्ञाय, पुनः, एव, वरुणम्, पितरम्, उपससार, अधीहि, भगवः, ब्रह्म, इति, तम्, ह, उवाच, तपसा, ब्रह्म, विजिज्ञासस्व, तपः, ब्रह्म, इति, सः, तपः, अतप्यत, सः, तपः, तप्त्वा",
+      anvaya: "मनः ब्रह्म इति व्यजानात् । मनसः हि एव खलु इमानि भूतानि जायन्ते, मनसा जातानि जीवन्ति, मनः प्रयन्ति अभिसंविशन्ति इति । तत् विज्ञाय, पुनः एव पितरं वरुणं उपससार—'भगवः, ब्रह्म अधीहि' इति । तं ह उवाच—'तपसा ब्रह्म विजिज्ञासस्व, तपः ब्रह्म' इति । सः तपः अतप्यत, सः तपः तप्त्वा...",
+      bhashyaExtract: "सङ्कल्पविकल्पात्मकं मनोऽभ्यन्तरं सर्वव्यापारमूलमिति ज्ञात्वा मनो ब्रह्मेत्यवधारितवान् । तस्यापि चञ्चलत्वं सुखासद्भावं च मत्वा पुनरपि पितरमुपेयाय ।",
+      englishTranslation: "He realized: 'Mind (Manas) is Brahman!' For from Mind verily are all these beings born; by Mind, being born, do they live; and into Mind do they depart and merge! Having known that, he again approached his father Varuṇa: 'Venerable sire, teach me Brahman!' Unto him the father replied: 'Through Tapas seek to know Brahman! Tapas itself is Brahman!' He practiced Tapas again. Having practiced Tapas...",
+      commentaryNotes: "Mind shapes sensory perception and desires, but its flickering nature (saṅkalpa-vikalpa) and susceptibility to grief disqualify it from being absolute."
+    },
+    {
+      id: "tait-bhr-5-1",
+      number: "Bhṛguvallī 5.1",
+      title: "Fourth Awakening: Intellect (Vijñāna) as Brahman & Final Push of Tapas",
+      mulaSanskrit: "विज्ञानं ब्रह्मेति व्यजानात् । विज्ञानाद्ध्येव खल्विमानि भूतानि जायन्ते । विज्ञानेन जातानि जीवन्ति । विज्ञानं प्रयन्त्यभिसंविशन्तीति । तद्विज्ञाय । पुनरेव वरुणं पितरमुपससार । अधीहि भगवो ब्रह्मेति । तं होवाच । तपसा ब्रह्म विजिज्ञासस्व । तपो ब्रह्मेति । स तपोऽतप्यत । स तपस्तप्त्वा ॥ १ ॥",
+      mulaIast: "vijñānaṁ brahmeti vyajānāt | vijñānād dhy eva khalv imāni bhūtāni jāyante | vijñānena jātāni jīvanti | vijñānaṁ prayanty abhisaṁviśantīti | tad vijñāya | punar eva varuṇaṁ pitaram upasasāra | adhīhi bhagavo brahmeti | taṁ hovāca | tapasā brahma vijijñāsasva | tapo brahmeti | sa tapo'tapyata | sa tapas taptvā || 1 ||",
+      padaccheda: "विज्ञानम्, ब्रह्म, इति, व्यजानात्, विज्ञानात्, हि, एव, खलु, इमानि, भूतानि, जायन्ते, विज्ञानेन, जातानि, जीवन्ति, विज्ञानम्, प्रयन्ति, अभिसंविशन्ति, इति, तत्, विज्ञाय, पुनः, एव, वरुणम्, पितरम्, उपससार, अधीहि, भगवः, ब्रह्म, इति, तम्, ह, उवाच, तपसा, ब्रह्म, विजिज्ञासस्व, तपः, ब्रह्म, इति, सः, तपः, अतप्यत, सः, तपः, तप्त्वा",
+      anvaya: "विज्ञानं ब्रह्म इति व्यजानात् । विज्ञानात् हि एव खलु इमानि भूतानि जायन्ते, विज्ञानेन जातानि जीवन्ति, विज्ञानं प्रयन्ति अभिसंविशन्ति इति । तत् विज्ञाय, पुनः एव पितरं वरुणं उपससार—'भगवः, ब्रह्म अधीहि' इति । तं ह उवाच—'तपसा ब्रह्म विजिज्ञासस्व, तपः ब्रह्म' इति । सः तपः अतप्यत, सः तपः तप्त्वा...",
+      bhashyaExtract: "निश्चयात्मिका बुद्धिरन्तःकरणं कर्तृत्वभोक्तृत्वलक्षणं विज्ञानम् । तदपि सुषुप्तौ लीयते, सुखदुःखलेपभाग् भवतीति न पूर्णमिति ज्ञात्वा पुनस्तपसे प्रवृत्तः ।",
+      englishTranslation: "He realized: 'Intellect (Vijñāna) is Brahman!' For from Intellect verily are all these beings born; by Intellect, being born, do they live; and into Intellect do they depart and merge! Having known that, he again approached his father Varuṇa: 'Venerable sire, teach me Brahman!' Unto him the father replied: 'Through Tapas seek to know Brahman! Tapas itself is Brahman!' He practiced Tapas again. Having practiced Tapas...",
+      commentaryNotes: "Vijñāna is the conscious agent and thinker, yet as it retains subject-object duality and the notion of individual agency ('I am the doer'), it must be transcended."
+    },
+    {
+      id: "tait-bhr-6-1",
+      number: "Bhṛguvallī 6.1",
+      title: "The Ultimate Realization: Bliss (Ānanda) is Brahman & The Bhārgavī Vāruṇī Vidyā",
+      mulaSanskrit: "आनन्दो ब्रह्मेति व्यजानात् । आनन्दाद्ध्येव खल्विमानि भूतानि जायन्ते । आनन्देन जातानि जीवन्ति । आनन्दं प्रयन्त्यभिसंविशन्तीति । सैषा भार्गवी वारुणी विद्या । परमे व्योमन् प्रतिष्ठिता । स य एवं वेद प्रतितिष्ठति । अन्नवानन्नादो भवति । महान् भवति । प्रजया पशुभिर्ब्रह्मवर्चसेन । महान् कीर्त्या ॥ १ ॥",
+      mulaIast: "ānando brahmeti vyajānāt | ānandād dhy eva khalv imāni bhūtāni jāyante | ānandena jātāni jīvanti | ānandaṁ prayanty abhisaṁviśantīti | saiṣā bhārgavī vāruṇī vidyā | parame vyoman pratiṣṭhitā | sa ya evaṁ veda pratitiṣṭhati | annavān annādo bhavati | mahān bhavati | prajayā paśubhir brahmavarcasena | mahān kīrtyā || 1 ||",
+      padaccheda: "आनन्दः, ब्रह्म, इति, व्यजानात्, आनन्दात्, हि, एव, खलु, इमानि, भूतानि, जायन्ते, आनन्देन, जातानि, जीवन्ति, आनन्दम्, प्रयन्ति, अभिसंविशन्ति, इति, सा, एषा, भार्गवी, वारुणी, विद्या, परमे, व्योमन्, प्रतिष्ठिता, सः, यः, एवम्, वेद, प्रतितिष्ठति, अन्नवान्, अन्नादः, भवति, महान्, भवति, प्रजया, पशुभिः, ब्रह्म-वर्चसेन, महान्, कीर्त्या",
+      anvaya: "आनन्दः ब्रह्म इति व्यजानात् । आनन्दात् हि एव खलु इमानि भूतानि जायन्ते, आनन्देन जातानि जीवन्ति, आनन्दं प्रयन्ति अभिसंविशन्ति इति । सा एषा भार्गवी वारुणी विद्या परमे व्योमन् (हृदयाकाशे) प्रतिष्ठिता । सः यः एवं वेद, प्रतितिष्ठति, अन्नवान् अन्नादः भवति, प्रजया पशुभिः ब्रह्मवर्चसेन महान् भवति, कीर्त्या महान् (भवति) ।",
+      bhashyaExtract: "आनन्दो निर्विशेषं परं ब्रह्म, यत्र नान्यत् पश्यति नान्यच्छृणोति । सैषा भृगुणा लब्धा वरुणेनोक्ता भार्गवी वारुणी विद्या परमे हृदयाकाशे पर्यवसिता । य एतां वेदान्तेनैव ब्रह्मणि प्रतिष्ठितो भवति ।",
+      englishTranslation: "He realized: 'Bliss (Ānanda) is Brahman!' For from Bliss verily are all these beings born; by Bliss, being born, do they live; and into Bliss do they depart and merge! This is the celebrated wisdom realized by Bhṛgu and imparted by Varuṇa (the Bhārgavī Vāruṇī Vidyā), established in the highest transcendent space of the heart! He who realizes this becomes firmly established in the Supreme Self! He becomes possessed of abundant food, an enjoyer of food, great in offspring, great in livestock, great in the effulgence of spiritual wisdom, and great in enduring renown!",
+      commentaryNotes: "The culmination of spiritual inquiry: The seeker finds unchanging rest in non-dual Ānanda. Here no further inquiry is necessary, for there is no interior reality beyond infinite Consciousness-Bliss."
+    },
+    {
+      id: "tait-bhr-7-1",
+      number: "Bhṛguvallī 7.1",
+      title: "The First Sacred Vow: Never Scorn Food (Annaṁ Na Nindyāt)",
+      mulaSanskrit: "अन्नं न निन्द्यात् । तद्व्रतम् । प्राणो वा अन्नम् । शरीरमन्नादम् । प्राणे शरीरं प्रतिष्ठितम् । शरीरे प्राणः प्रतिष्ठितः । तदेतदन्नमन्ने प्रतिष्ठितम् । स य एतदन्नमन्ने प्रतिष्ठितं वेद प्रतितिष्ठति । अन्नवानन्नादो भवति । महान् भवति । प्रजया पशुभिर्ब्रह्मवर्चसेन । महान् कीर्त्या ॥ १ ॥",
+      mulaIast: "annaṁ na nindyāt | tad vratam | prāṇo vā annam | śarīram annādam | prāṇe śarīraṁ pratiṣṭhitam | śarīre prāṇaḥ pratiṣṭhitaḥ | tad etad annam anne pratiṣṭhitam | sa ya etad annam anne pratiṣṭhitaṁ veda pratitiṣṭhati | annavān annādo bhavati | mahān bhavati | prajayā paśubhir brahmavarcasena | mahān kīrtyā || 1 ||",
+      padaccheda: "अन्नम्, न, निन्द्यात्, तत्, व्रतम्, प्राणः, वै, अन्नम्, शरीरम्, अन्नादम्, प्राणे, शरीरम्, प्रतिष्ठितम्, शरीरे, प्राणः, प्रतिष्ठितः, तत्, एतत्, अन्नम्, अन्ने, प्रतिष्ठितम्, सः, यः, एतत्, अन्नम्, अन्ने, प्रतिष्ठितम्, वेद, प्रतितिष्ठति, अन्नवान्, अन्नादः, भवति, महान्, भवति, प्रजया, पशुभिः, ब्रह्म-वर्चसेन, महान्, कीर्त्या",
+      anvaya: "अन्नं न निन्द्यात्—तत् व्रतम् । प्राणः वै अन्नम्, शरीरम् अन्नादम् । प्राणे शरीरं प्रतिष्ठितम्, शरीरे प्राणः प्रतिष्ठितः । तत् एतत् अन्नम् अन्ने प्रतिष्ठितम् । सः यः एतत् अन्नम् अन्ने प्रतिष्ठितं वेद, प्रतितिष्ठति । अन्नवान् अन्नादः भवति, प्रजया पशुभिः ब्रह्मवर्चसेन महान् भवति, कीर्त्या महान् (भवति) ।",
+      bhashyaExtract: "ब्रह्मप्राप्तिसाधनत्वादन्नं न कदापि निन्देत् । प्राणशरीरयोः परस्परं भोज्यभोक्तृभावेनान्नत्वमन्नादत्वं च । एवं सर्वं जगदन्योन्याश्रयं प्रतिष्ठितम् ।",
+      englishTranslation: "One should never despise food—that is the sacred vow! The vital breath is verily food; the physical body is the eater of food. The body is established in the vital breath; the vital breath is established in the body. Thus food is established within food! He who knows this food established within food becomes firmly established! He becomes master of food, an eater of food, great in offspring, great in livestock, great in the brilliance of sacred wisdom, and great in renown!",
+      commentaryNotes: "Because food is the gateway through which Bhṛgu ascended to Brahman, reverence for food is enjoined as a lifelong religious commitment."
+    },
+    {
+      id: "tait-bhr-8-1",
+      number: "Bhṛguvallī 8.1",
+      title: "The Second Sacred Vow: Never Reject Food (Annaṁ Na Paricakṣīta)",
+      mulaSanskrit: "अन्नं न परिचक्षीत । तद्व्रतम् । आपो वा अन्नम् । ज्योतिरन्नादम् । अप्सु ज्योतिः प्रतिष्ठितम् । ज्योतिष्यापः प्रतिष्ठिताः । तदेतदन्नमन्ने प्रतिष्ठितम् । स य एतदन्नमन्ने प्रतिष्ठितं वेद प्रतितिष्ठति । अन्नवानन्नादो भवति । महान्भवति । प्रजया पशुभिर्ब्रह्मवर्चसेन । महान्कीर्त्या ॥ १ ॥",
+      mulaIast: "annaṁ na paricakṣīta | tad vratam | āpo vā annam | jyotir annādam | apsu jyotiḥ pratiṣṭhitam | jyotiṣy āpaḥ pratiṣṭhitāḥ | tad etad annam anne pratiṣṭhitam | sa ya etad annam anne pratiṣṭhitaṁ veda pratitiṣṭhati | annavān annādo bhavati | mahān bhavati | prajayā paśubhir brahmavarcasena | mahān kīrtyā || 1 ||",
+      padaccheda: "अन्नम्, न, परिचक्षीत, तत्, व्रतम्, आपः, वै, अन्नम्, ज्योतिः, अन्नादम्, अप्सु, ज्योतिः, प्रतिष्ठितम्, ज्योतिषि, आपः, प्रतिष्ठिताः, तत्, एतत्, अन्नम्, अन्ने, प्रतिष्ठितम्, सः, यः, एतत्, अन्नम्, अन्ने, प्रतिष्ठितम्, वेद, प्रतितिष्ठति, अन्नवान्, अन्नादः, भवति, महान्, भवति, प्रजया, पशुभिः, ब्रह्म-वर्चसेन, महान्, कीर्त्या",
+      anvaya: "अन्नं न परिचक्षीत (न तिरस्कुर्यात्)—तत् व्रतम् । आपः वै अन्नम्, ज्योतिः अन्नादम् । अप्सु ज्योतिः प्रतिष्ठितम्, ज्योतिषि आपः प्रतिष्ठिताः । तत् एतत् अन्नम् अन्ने प्रतिष्ठितम् । सः यः एतत् अन्नम् अन्ने प्रतिष्ठितं वेद, प्रतितिष्ठति । अन्नवान् अन्नादः भवति, प्रजया पशुभिः ब्रह्मवर्चसेन महान् भवति, कीर्त्या महान् भवति ।",
+      bhashyaExtract: "अन्नं न प्रत्याचक्षीत । जलं तप्तं कृत्वा पाचयत्यग्निस्तस्मादग्निरन्नाद आपश्चान्नम् । तयोरपि परस्परप्रतिष्ठा ।",
+      englishTranslation: "One should never refuse or turn away food—that is the sacred vow! Water is verily food; Fire is the eater of food. Fire is established in water; water is established in fire. Thus food is established within food! He who knows this food established within food becomes firmly established! He becomes master of food, an eater of food, great in offspring, great in livestock, great in the brilliance of sacred wisdom, and great in renown!",
+      commentaryNotes: "Water and fire interpenetrate (lightning in storm clouds, bile/digestive acid in bodily fluids), exemplifying nature's mutually sustaining culinary alchemy."
+    },
+    {
+      id: "tait-bhr-9-1",
+      number: "Bhṛguvallī 9.1",
+      title: "The Third Sacred Vow: Produce Food Abundantly (Annaṁ Bahu Kurvīta)",
+      mulaSanskrit: "अन्नं बहु कुर्वीत । तद्व्रतम् । पृथिवी वा अन्नम् । आकाशोऽन्नादः । पृथिव्यामाकाशः प्रतिष्ठितः । आकाशे पृथिवी प्रतिष्ठिता । तदेतदन्नमन्ने प्रतिष्ठितम् । स य एतदन्नमन्ने प्रतिष्ठितं वेद प्रतितिष्ठति । अन्नवानन्नादो भवति । महान्भवति । प्रजया पशुभिर्ब्रह्मवर्चसेन । महान्कीर्त्या ॥ १ ॥",
+      mulaIast: "annaṁ bahu kurvīta | tad vratam | pṛthivī vā annam | ākāśo'nnādaḥ | pṛthivyām ākāśaḥ pratiṣṭhitaḥ | ākāśe pṛthivī pratiṣṭhitā | tad etad annam anne pratiṣṭhitam | sa ya etad annam anne pratiṣṭhitaṁ veda pratitiṣṭhati | annavān annādo bhavati | mahān bhavati | prajayā paśubhir brahmavarcasena | mahān kīrtyā || 1 ||",
+      padaccheda: "अन्नम्, बहु, कुर्वीत, तत्, व्रतम्, पृथिवी, वै, अन्नम्, आकाशः, अन्नादः, पृथिव्याम्, आकाशः, प्रतिष्ठितः, आकाशे, पृथिवी, प्रतिष्ठिता, तत्, एतत्, अन्नम्, अन्ने, प्रतिष्ठितम्, सः, यः, एतत्, अन्नम्, अन्ने, प्रतिष्ठितम्, वेद, प्रतितिष्ठति, अन्नवान्, अन्नादः, भवति, महान्, भवति, प्रजया, पशुभिः, ब्रह्म-वर्चसेन, महान्, कीर्त्या",
+      anvaya: "अन्नं बहु कुर्वीत—तत् व्रतम् । पृथिवी वै अन्नम्, आकाशः अन्नादः । पृथिव्याम् आकाशः प्रतिष्ठितः, आकाशे पृथिवी प्रतिष्ठिता । तत् एतत् अन्नम् अन्ने प्रतिष्ठितम् । सः यः एतत् अन्नम् अन्ने प्रतिष्ठितं वेद, प्रतितिष्ठति । अन्नवान् अन्नादः भवति, प्रजया पशुभिः ब्रह्मवर्चसेन महान् भवति, कीर्त्या महान् भवति ।",
+      bhashyaExtract: "अतिथिसत्कारार्थं महता प्रयत्नेनान्नं बहु सम्पादयेत् । पृथिवी भौतिकमन्नम्, आकाशोऽवकाशप्रदाता । तयोरप्यन्योन्याश्रयत्वम् ।",
+      englishTranslation: "One should produce food in abundant profusion—that is the sacred vow! Earth is verily food; Space is the eater of food. Space is established in the earth; the earth is established in space. Thus food is established within food! He who knows this food established within food becomes firmly established! He becomes master of food, an eater of food, great in offspring, great in livestock, great in the brilliance of sacred wisdom, and great in renown!",
+      commentaryNotes: "Economic abundance and agricultural prosperity are sanctified as spiritual duties, ensuring that no guest or seeker goes hungry."
+    },
+    {
+      id: "tait-bhr-10-1",
+      number: "Bhṛguvallī 10.1",
+      title: "The Sacred Vow of Universal Hospitality: Preparing Food for Guests",
+      mulaSanskrit: "न कञ्चन वसतौ प्रत्याचक्षीत । तद्व्रतम् । तस्माद्यया कया च विधया बह्वन्नं प्राप्नुयात् । अराध्यस्मा अन्नमित्याचक्षते । एतद्वै मुखतोऽन्नं राद्धम् । मुखतोऽस्मा अन्नं राध्यते । एतद्वै मध्यतोऽन्नं राद्धम् । मध्यतोऽस्मा अन्नं राध्यते । एतद्वा अन्ततोऽन्नं राद्धम् । अन्ततोऽस्मा अन्नं राध्यते ॥ १ ॥",
+      mulaIast: "na kañcana vasatau pratyācakṣīta | tad vratam | tasmād yayā kayā ca vidhayā bahv annaṁ prāpnuyāt | arādhy asmā annam ity ācakṣate | etad vai mukhato'nnaṁ rāddham | mukhato'smā annaṁ rādhyate | etad vai madhyato'nnaṁ rāddham | madhyato'smā annaṁ rādhyate | etad vā antato'nnaṁ rāddham | antato'smā annaṁ rādhyate || 1 ||",
+      padaccheda: "न, कञ्चन, वसतौ, प्रत्याचक्षीत, तत्, व्रतम्, तस्मात्, यया, कया, च, विधया, बहु, अन्नम्, प्राप्नुयात्, अराधि, अस्मै, अन्नम्, इति, आचक्षते, एतत्, वै, मुखतः, अन्नम्, राद्धम्, मुखतः, अस्मै, अन्नम्, राध्यते, एतत्, वै, मध्यतः, अन्नम्, राद्धम्, मध्यतः, अस्मै, अन्नम्, राध्यते, एतत्, वै, अन्ततः, अन्नम्, राद्धम्, अन्ततः, अस्मै, अन्नम्, राध्यते",
+      anvaya: "वसतौ (निवासस्थाने आगन्तुकं) कञ्चन न प्रत्याचक्षीत—तत् व्रतम् । तस्मात् यया कया च विधया बहु अन्नं प्राप्नुयात् । 'अस्मै अन्नम् अराधि (सिद्धम् अस्ति)' इति आचक्षते । एतत् वै मुखतः (उत्तमवयसि आदरपूर्वके वा) राद्धम् अन्नं, मुखतः अस्मै अन्नं राध्यते । एतत् वै मध्यतः राद्धम् अन्नं, मध्यतः अस्मै अन्नं राध्यते । एतत् वै अन्ततः राद्धम् अन्नं, अन्ततः अस्मै अन्नं राध्यते ।",
+      bhashyaExtract: "आगतायातिथये निवासं भोजनं च न कदापि प्रत्याख्यायात् । तदर्थं प्रभूतं संपाद्य सत्कृत्य दातव्यम् । य उत्तमकाले श्रद्धया ददाति तस्मै तथा फलम्, यो मध्यमे ददाति तस्मै मध्यमं, योऽधमे तस्मा अधमम् ।",
+      englishTranslation: "One should never turn away anyone seeking lodging and shelter in one's home—that is the sacred vow! Therefore, by whatever honest means possible, one should procure abundant food! The householder proclaims to arriving guests: 'Food is prepared and ready for him!' If food is served with foremost excellence and reverence in the prime of life, unto him food is served with foremost excellence! If food is served in middle age with average care, unto him food is served with average care! If food is served grudgingly at the end, unto him food is served at the end!",
+      commentaryNotes: "Universal hospitality (Atithi-sevo) is tied to karmic reciprocity: as one gives unto others, so does the cosmos give back in return."
+    },
+    {
+      id: "tait-bhr-10-2",
+      number: "Bhṛguvallī 10.2",
+      title: "Contemplating Brahman in Human Organs & In Nature (Mānuṣī & Daivī Samājñāḥ)",
+      mulaSanskrit: "य एवं वेद । क्षेम इति वाचि । योगक्षेम इति प्राणापानयोः । कर्मेति हस्तयोः । गतिरिति पादयोः । विमुक्तिरिति पायौ । इति मानुषीः समाज्ञाः । अथ दैवीः । तृप्तिरिति वृष्टौ । बलमिति विद्युति ॥ २ ॥",
+      mulaIast: "ya evaṁ veda | kṣema iti vāci | yogakṣema iti prāṇāpānayoḥ | karmeti hastayoḥ | gatir iti pādayoḥ | vimuktir iti pāyau | iti mānuṣīḥ samājñāḥ | atha daivīḥ | tṛptir iti vṛṣṭau | balam iti vidyuti || 2 ||",
+      padaccheda: "यः, एवम्, वेद, क्षेमः, इति, वाचि, योग-क्षेमः, इति, प्राण-अपानयोः, कर्म, इति, हस्तयोः, गतिः, इति, पादयोः, विमुक्तिः, इति, पायौ, इति, मानुषीः, समाज्ञाः, अथ, दैवीः, तृप्तिः, इति, वृष्टौ, बलम्, इति, विद्युति",
+      anvaya: "यः एवं वेद (तस्य फलं भवति) । वाचि 'क्षेमः' इति, प्राणापानयोः 'योगक्षेमः' इति, हस्तयोः 'कर्म' इति, पादयोः 'गतिः' इति, पायौ 'विमुक्तिः' इति—इति मानुषीः समाज्ञाः (उपासनाः) । अथ दैवीः—वृष्टौ 'तृप्तिः' इति, विद्युति 'बलम्' इति...",
+      bhashyaExtract: "ब्रह्मणो मानुषीरधिष्ठानोपासना आह—वाचि रक्षणरूपेण, प्राणापानेष्वप्राप्तप्रापणप्राप्तरक्षणरूपेण, पाणिपादपायुषु चेष्टारूपेण । देवेषु वृष्टौ तृप्तिरूपेण, विद्युति तेजोबलरूपेण ब्रह्म ध्येयम् ।",
+      englishTranslation: "He who knows this attains fulfillment! Brahman is to be meditated upon as Preservation (Kṣema) in speech; as Acquisition and Preservation (Yoga-kṣema) in the in-breath and out-breath; as Action in the hands; as Locomotion in the feet; as Elimination in the excretory organ—these are the contemplations in the human sphere. Now as to the divine cosmic sphere: As Satisfaction (Tṛpti) in rainfall; as Power (Bala) in lightning...",
+      commentaryNotes: "Every human faculty and cosmic phenomenon is consecrated as an altar for recognizing the presence of Brahman."
+    },
+    {
+      id: "tait-bhr-10-3",
+      number: "Bhṛguvallī 10.3",
+      title: "Cosmic Meditations on Fame, Light, Procreation, and Space",
+      mulaSanskrit: "यश इति पशुषु । ज्योतिरिति नक्षत्रेषु । प्रजातिरमृतमानन्द इत्युपस्थे । सर्वमित्याकाशे । तत्प्रतिष्ठेत्युपासीत । प्रतिष्ठावान् भवति । तन्मह इत्युपासीत । महान् भवति । तन्मन इत्युपासीत । मानवान् भवति ॥ ३ ॥",
+      mulaIast: "yaśa iti paśuṣu | jyotir iti nakṣatreṣu | prajātir amṛtam ānanda ity upasthe | sarvam ity ākāśe | tat pratiṣṭhety upāsīta | pratiṣṭhāvān bhavati | tan maha ity upāsīta | mahān bhavati | tan mana ity upāsīta | mānavān bhavati || 3 ||",
+      padaccheda: "यशः, इति, पशुषु, ज्योतिः, इति, नक्षत्रेषु, प्रजातिः, अमृतम्, आनन्दः, इति, उपस्थे, सर्वम्, इति, आकाशे, तत्, प्रतिष्ठा, इति, उपासीत, प्रतिष्ठावान्, भवति, तत्, महः, इति, उपासीत, महान्, भवति, तत्, मनः, इति, उपासीत, मानवान्, भवति",
+      anvaya: "पशुषु 'यशः' इति, नक्षत्रेषु 'ज्योतिः' इति, उपस्थे 'प्रजातिः अमृतम् आनन्दः' इति, आकाशे 'सर्वम्' इति । तत् 'प्रतिष्ठा' इति उपासीत, प्रतिष्ठावान् भवति । तत् 'महः' इति उपासीत, महान् भवति । तत् 'मनः' इति उपासीत, मानवान् (मननशीलः) भवति ।",
+      bhashyaExtract: "पशुषु ख्यातिरूपेण, नक्षत्रेषु दीप्तिरूपेण, सन्ततौ चानन्दरूपेण ब्रह्म । आकाशे सर्वाधाररूपेण । यद्यद्रूपेणोपास्ते तत्तदेव फलमाप्नोति—प्रतिष्ठावान्, महान्, मननसमर्थश्च भवति ।",
+      englishTranslation: "...as Renown in cattle; as Radiant Light in the stars; as Procreation, Immortality, and Bliss in the generative organ; as All-Encompassing Space! Let one meditate upon Brahman as Support—he becomes firmly supported! Let one meditate upon Brahman as Greatness—he becomes great! Let one meditate upon Brahman as Mind—he becomes endowed with deep thoughtfulness and reflection!",
+      commentaryNotes: "'Taṁ yathā yathopāsate tad eva bhavati' (As one meditates upon Brahman, so one becomes). Formative contemplative modalities empower the meditator."
+    },
+    {
+      id: "tait-bhr-10-4",
+      number: "Bhṛguvallī 10.4",
+      title: "Meditation on Brahman as Obeisance, Supreme Mystery & The Single Sun",
+      mulaSanskrit: "तन्नम इत्युपासीत । नम्यन्तेऽस्मै कामाः । तद्ब्रह्मेत्युपासीत । ब्रह्मवान् भवति । तद्ब्रह्मणः परिमर इत्युपासीत । पर्येणं म्रियन्ते द्विषन्तः सपत्नाः । परि येऽप्रिया भ्रातृव्याः । स यश्चायं पुरुषे । यश्चासावादित्ये । स एकः ॥ ४ ॥",
+      mulaIast: "tan nama ity upāsīta | namyante'smai kāmāḥ | tad brahmeti upāsīta | brahmavān bhavati | tad brahmaṇaḥ parimara ity upāsīta | pary eṇaṁ mriyante dviṣantaḥ sapatnāḥ | pari ye'priyā bhrātṛvyāḥ | sa yaś cāyaṁ puruṣe | yaś cāsāv āditye | sa ekaḥ || 4 ||",
+      padaccheda: "तत्, नमः, इति, उपासीत, नम्यन्ते, अस्मै, कामाः, तत्, ब्रह्म, इति, उपासीत, ब्रह्मवान्, भवति, तत्, ब्रह्मणः, परिमरः, इति, उपासीत, परि, एनम्, म्रियन्ते, द्विषन्तः, सपत्नाः, परि, ये, अप्रियाः, भ्रातृव्याः, सः, यः, च, अयम्, पुरुषे, यः, च, असौ, आदित्ये, सः, एकः",
+      anvaya: "तत् 'नमः' इति उपासीत, अस्मै कामाः नम्यन्ते (प्रह्वीभवन्ति) । तत् 'ब्रह्म' इति उपासीत, ब्रह्मवान् भवति । तत् 'ब्रह्मणः परिमरः' (वायुरूपा संहारशक्तिः) इति उपासीत, एनं द्विषन्तः सपत्नाः परिम्रियन्ते, ये अप्रियाः भ्रातृव्याः (ते च परिम्रियन्ते) । सः यः च अयम् पुरुषे, यः च असौ आदित्ये, सः एकः ।",
+      bhashyaExtract: "नम इति नमनात्मकं ध्यायतः सर्वे कामा वशीभवन्ति । ब्रह्मणः परिमरो वायुर्यत्र पञ्च देवता म्रियन्ते, तदुपासकस्य शत्रवो नश्यन्ति । यश्चायं देहस्थश्चैतन्यरूपः, यश्चादित्यस्थः, स एक एव ।",
+      englishTranslation: "Let one meditate upon Brahman as Reverence (Namas)—unto him all desires bow in submission! Let one meditate upon Brahman as the Supreme—he becomes endowed with Brahman! Let one meditate upon Brahman as the Destroyer (Parimara)—around him his envious foes and hostile rivals perish! He who is here in the human person, and He who is yonder in the Sun—He is One!",
+      commentaryNotes: "Parimara refers to the cosmic dissolution where gods and elements resolve back into the divine breath. The text re-articulates the great equation: the Inner Self is the Sun of Suns."
+    },
+    {
+      id: "tait-bhr-10-5",
+      number: "Bhṛguvallī 10.5",
+      title: "The Transcendence of the Sheaths and Free Roaming Across the Cosmos",
+      mulaSanskrit: "स य एवंवित् । अस्माल्लोकात्प्रेत्य । एतमन्नमयमात्मानमुपसङ्क्रम्य । एतं प्राणमयमात्मानमुपसङ्क्रम्य । एतं मनोमयमात्मानमुपसङ्क्रम्य । एतं विज्ञानमयमात्मानमुपसङ्क्रम्य । एतमानन्दमयमात्मानमुपसङ्क्रम्य । इमांल्लोकान्कामान्नी कामरूप्यनुसञ्चरन् । एतत्साम गायन्नास्ते । हा३वु हा३वु हा३वु ॥ ५ ॥",
+      mulaIast: "sa ya evaṁvit | asmāl lokāt pretya | etam annamayam ātmānam upasaṅkramya | etaṁ prāṇamayam ātmānam upasaṅkramya | etaṁ manomayam ātmānam upasaṅkramya | etaṁ vijñānamayam ātmānam upasaṅkramya | etam ānandamayam ātmānam upasaṅkramya | imāḻ lokān kāmānnī kāmarūpy anusañcaran | etat sāma gāyann āste | hā3vu hā3vu hā3vu || 5 ||",
+      padaccheda: "सः, यः, एवम्-वित्, अस्मात्, लोकात्, प्रेत्य, एतम्, अन्न-मयम्, आत्मानम्, उपसङ्क्रम्य, एतम्, प्राण-मयम्, आत्मानम्, उपसङ्क्रम्य, एतम्, मनो-मयम्, आत्मानम्, उपसङ्क्रम्य, एतम्, विज्ञान-मयम्, आत्मानम्, उपसङ्क्रम्य, एतम्, आनन्द-मयम्, आत्मानम्, उपसङ्क्रम्य, इमान्, लोकान्, काम-अन्नी, काम-रूपी, अनुसञ्चरन्, एतत्, साम, गायन्, आस्ते, हा३वु, हा३वु, हा३वु",
+      anvaya: "सः यः एवंवित्, अस्मात् लोकात् प्रेत्य, एतम् अन्नमयम् आत्मानम् उपसङ्क्रम्य, एतं प्राणमयम् आत्मानम् उपसङ्क्रम्य, एतं मनोमयम् आत्मानम् उपसङ्क्रम्य, एतं विज्ञानमयम् आत्मानम् उपसङ्क्रम्य, एतम् आनन्दमयम् आत्मानम् उपसङ्क्रम्य, इमान् लोकान् कामान्नी कामरूपी अनुसञ्चरन्, एतत् साम गायन् आस्ते—'हा३वु हा३वु हा३वु !'",
+      bhashyaExtract: "एवं यथोक्तमद्वैतं यो वेद, स पञ्चकोशातिक्रमेण सर्वात्मभावं प्राप्य स्वेच्छया सर्वान् लोकान् विचरन् सर्वान् कामानश्नन् विस्मयकरं साम गानं करोति—हा३वु इति विस्मयप्रदर्शकं सामगानम् ।",
+      englishTranslation: "He who knows this, departing from this world, transcending this self made of food, transcending this self made of vital breath, transcending this self made of mind, transcending this self made of intellect, transcending this self made of bliss—roaming freely through all these worlds, eating whatever food he desires, assuming whatever form he wills, sits singing this ecstatic Sāman chant: 'Hā3vu! Hā3vu! Hā3vu! (Oh, wonder of wonders! Oh, wonder of wonders! Oh, wonder of wonders!)'",
+      commentaryNotes: "The liberated soul (Jīvanmukta) experiences complete cosmic freedom, no longer confined by the physical sheath, singing the primordial Sāman in boundless awe."
+    },
+    {
+      id: "tait-bhr-10-6",
+      number: "Bhṛguvallī 10.6",
+      title: "The Ecstatic Hymn of Cosmic Oneness: I am Food, I am the Eater, I am the Sun of Truth!",
+      mulaSanskrit: "अहमन्नमहमन्नमहमन्नम् । अहमन्नादो३ऽहमन्नादो३ऽहमन्नादः । अहं श्लोककृदहं श्लोककृदहं श्लोककृत् । अहमस्मि प्रथमजा ऋता३स्य । पूर्वं देवेभ्योऽमृतस्य ना३भायि । यो मा ददाति स इदेव मा३वाः । अहमन्नमन्नमदन्तमा३द्मि । अहं विश्वं भुवनमभ्यभवा३म् । सुवर्न ज्योतीः । य एवं वेद । इत्युपनिषत् ॥ ६ ॥",
+      mulaIast: "aham annam aham annam aham annam | aham annādo3'ham annādo3'ham annādaḥ | ahaṁ ślokakṛd ahaṁ ślokakṛd ahaṁ ślokakṛt | aham asmi prathamajā ṛtā3sya | pūrvaṁ devebhyo'mṛtasya nā3bhāyi | yo mā dadāti sa id eva mā3vāḥ | aham annam annam adantam ā3dmi | ahaṁ viśvaṁ bhuvanam abhyabhavā3m | suvar na jyotīḥ | ya evaṁ veda | ity upaniṣat || 6 ||",
+      padaccheda: "अहम्, अन्नम्, अहम्, अन्नम्, अहम्, अन्नम्, अहम्, अन्नादः, अहम्, अन्नादः, अहम्, अन्नादः, अहम्, श्लोक-कृत्, अहम्, श्लोक-कृत्, अहम्, श्लोक-कृत्, अहम्, अस्मि, प्रथम-जाः, ऋतस्य, पूर्वम्, देवेभ्यः, अमृतस्य, नाभायि, यः, मा, ददाति, सः, इत्, एव, मा, आवाः, अहम्, अन्नम्, अन्नम्, अदन्तम्, आद्मि, अहम्, विश्वम्, भुवनम्, अभ्यभवाम्, सुवः, न, ज्योतीः, यः, एवम्, वेद, इति, उपनिषत्",
+      anvaya: "अहम् अन्नम्, अहम् अन्नम्, अहम् अन्नम् ! अहम् अन्नादः, अहम् अन्नादः, अहम् अन्नादः ! अहं श्लोककृत्, अहं श्लोककृत्, अहं श्लोककृत् ! अहम् ऋतस्य प्रथमजाः अस्मि, देवेभ्यः पूर्वम् अमृतस्य नाभिः (केन्द्रम्) आसम् । यः मां (अन्नरूपेण) ददाति, सः इत् एव मां पाति । अहम् अन्नं (सन्) अन्नम् अदन्तम् आद्मि ! अहं विश्वं भुवनम् अभ्यभवाम् ! सुवः न (सूर्य इव) मे ज्योतिः ! यः एवं वेद (स मुक्तो भवति) । इति उपनिषत् ।",
+      bhashyaExtract: "त्रिरभ्यास आदरातिशयद्योतनार्थः । अहमेव भोज्यमन्नं, भोक्ता चाहमेव, तयोः संघातकर्तेति श्लोककृत् । ऋतस्य सत्यस्य जगतः प्रथमजो हिरण्यगर्भात्मा, देवेभ्यः पूर्वममृतस्य नाभिर्मध्यम् । यो मां ददाति स मामेवावति । यो न ददाति तं भक्षयन्तं प्रत्यन्नरूपेणाहमेवाद्मि । अहमेव सूर्य इव सर्वं जगदभिभूयावभासे । इतीयं भृगुवल्ल्युपनिषत् समाप्ता ।",
+      englishTranslation: "I am Food! I am Food! I am Food! I am the Eater of Food! I am the Eater of Food! I am the Eater of Food! I am the Harmonizer and Unifier of both! I am the Harmonizer and Unifier of both! I am the Harmonizer and Unifier of both! I am the First-born of the Cosmic Order (Ṛta)! Prior to the gods, I am the immortal navel and center of the universe! He who gives me as food to the needy, he alone verily preserves me! I, who am Food, eat the eater of food who refuses to give! I have overcome and pervaded the entire cosmos! Resplendent is my light like the golden Sun! Whosoever knows this truth attains supreme liberation! Such is the holy Upanishad!",
+      commentaryNotes: "The climax of the entire Taittirīyopaniṣad. The threefold repetition conveys the roaring ecstasy of non-dual realization: The liberated sage is simultaneously the object of experience (Anna), the subject experiencing (Annāda), and the conscious synthesis uniting them (Ślokakṛt). He shines as the eternal Sun of pure Consciousness."
+    }
+  ]
+};

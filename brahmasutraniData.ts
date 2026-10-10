@@ -1,0 +1,29 @@
+import { TextEntry } from "./types";
+import { BRAHMASUTRA_ADHYAYA_1 } from "./brahmasutraAdhyaya1Data";
+import { BRAHMASUTRA_ADHYAYA_2 } from "./brahmasutraAdhyaya2Data";
+import { BRAHMASUTRA_ADHYAYA_3 } from "./brahmasutraAdhyaya3Data";
+import { BRAHMASUTRA_ADHYAYA_4 } from "./brahmasutraAdhyaya4Data";
+
+export const BRAHMASUTRA_GRANTHA: TextEntry = {
+  id: "brahmasutra",
+  title: "Brahma Sūtras",
+  transliteratedTitle: "Brahmasūtrāṇi (श्री ब्रह्मसूत्राणि — वेदान्तदर्शनम्)",
+  author: "Maharṣi Bādarāyaṇa Kṛṣṇa Dvaipāyana Veda-Vyāsa (महर्षि बादरायण वेदव्यासः)",
+  century: "Classical Antiquity (Nyāya / Sūtra Prasthāna Fountainhead)",
+  school: "Nyāya-Prasthāna (The Foundational Logical Canon of all Vedānta)",
+  paramparaId: "vedic_root",
+  schoolTag: "Nyāya-Prasthāna",
+  foundationalText: "Bādarāyaṇa Brahma-Sūtras / Śārīraka-Mīmāṁsā / Uttara-Mīmāṁsā",
+  totalVersesOrSutras: "4 Adhyāyas (16 Pādas, 191 Adhikaraṇas, 555 Sūtras)",
+  language: "Classical Sanskrit (सूत्र-संस्कृतम्)",
+  scriptStyle: "Aphoristic Philosophical Metaphysics (शारीरक-मीमांसा-सूत्रम्)",
+  description: "The Brahma Sūtras (also termed Śārīraka-Sūtras, Vedānta-Sūtras, or Uttara-Mīmāṁsā) composed by Sage Bādarāyaṇa constitutes the supreme logical and dialectical pillar (Nyāya-Prasthāna) of the Prasthānatrayī. In 555 terse, penetrating aphorisms structured across four Adhyāyas, it harmonizes the seemingly divergent utterances of the Upaniṣadic corpus into an impregnable metaphysical unity. Adhyāya 1 (Samanvaya) resolves all ambiguous Vedic texts onto non-dual Brahman, crowned by the immortal Catussūtrī ('Athāto Brahmajijñāsā', 'Janmādyasya yataḥ', 'Śāstrayonitvāt', 'Tat tu samanvayāt') and the Prakṛtyadhikaraṇa proving Brahman as both efficient and material cause. Adhyāya 2 (Avirodha) defends the Vedāntic vision against all objections, establishing the non-difference of effect and cause ('Tadananyatvam ārambhaṇaśabdādibhyaḥ'), showing creation as spontaneous divine sport ('Lokavat tu līlākaivalyam'), and launching a devastating critique (the celebrated Tarka-Pāda) that dismantles Sāṅkhya Pradhāna, Vaiśeṣika atomism, Buddhist Sarvāstivāda and Vijñānavāda ('Nābhāva upalabdheḥ'), Jaina Syādvāda, and Pāśupata theism. Adhyāya 3 (Sādhana) delineates the spiritual path: awakening dispassion through the analysis of transmigration, revealing dreams as mental appearance ('Māyāmātraṁ tu'), expounding Brahman's formless majesty ('Arūpavad eva hi') and the true meaning of 'Neti Neti' ('Prakṛtaitāvattvaṁ hi pratiṣedhati tato bravīti ca bhūyaḥ'), synthesizing meditation vidyās, and establishing that direct Self-realization alone confers liberation ('Puruṣārtho'taḥ śabdāt'). Adhyāya 4 (Phala) unveils the fruit of realization: the destruction of accumulated karmas, the state of Jīvanmukti, the departure of the subtle body via the solar path, undivided union with the Absolute ('Avibhāgena dṛṣṭatvāt'), and the ultimate eternal assurance: 'Anāvṛttiḥ śabdād anāvṛttiḥ śabdāt' (From which there is no return, on account of scriptural testimony).",
+  refutationsDet: "Decisively refutes Sāṅkhya dualism by proving that blind, insentient matter (Pradhāna) lacks the conscious ideation ('Īkṣati') necessary to construct an intricately ordered cosmos; refutes Vaiśeṣika atomism (Paramāṇuvāda) by exposing the infinite regress of the inherence relation (Samavāya) and showing that quality-less spherical atoms can never combine to produce gross magnitude; refutes Buddhist external realism (Sarvāstivāda) by proving that momentariness (Kṣaṇikavāda) destroys the causal chain; refutes Buddhist subjective idealism (Vijñānavāda) by establishing the direct perceptual reality of external objects ('Nābhāva upalabdheḥ') and the irreducible difference between waking and dream states ('Vaidharmyāc ca na svapnādivat'); refutes Buddhist nihilism (Śūnyavāda) by demonstrating that all illusions require a real, non-empty substrate; refutes Jaina relativism (Anekāntavāda / Syādvāda) by showing that mutually contradictory attributes (existence and non-existence) cannot reside simultaneously in the same locus; refutes Pāśupata theism by showing that a God who is merely an efficient cause (Nimitta-Kāraṇa) separate from matter is subject to partiality, limitation, and finite defects; and refutes Pūrva-Mīmāṁsā ritualism by proving that knowledge of Brahman independently confers the supreme human goal without requiring any ritual action.",
+  supportsDet: "Establishes the foundational Catussūtrī of Vedānta: the sovereign mandate of inquiry into Brahman ('Athāto Brahmajijñāsā'), the cosmic definition of Brahman as the sole origin, preservation, and dissolution of the universe ('Janmādyasya yataḥ'), the epistemic supremacy of Scripture ('Śāstrayonitvāt'), and the universal hermeneutic harmony of all Upaniṣads ('Tat tu samanvayāt'); establishes the doctrine of Abhinna-Nimitta-Upādāna-Kāraṇa (Brahman as both efficient and material cause); establishes Vivartavāda (the world as an apparent modification of Brahman, grounded in 'Vācārambhaṇa' and 'Tadananyatvam ārambhaṇaśabdādibhyaḥ'); establishes the concept of cosmic creation as spontaneous divine sport ('Lokavat tu līlākaivalyam'); resolves the problem of evil through beginningless karma ('Vaiṣamyanairghṛṇye na sāpekṣatvāt'); establishes the essential unconditioned purity of Brahman across all limiting adjuncts ('Arūpavad eva hi tatpradhānatvāt'); establishes the true import of 'Neti Neti' as the negation of finite limits to reveal the infinite Substrate; establishes Jīvanmukti (liberation while living) and the exhaustion of Prārabdha karma; and seals the entire Vedic canon with the eternal promise of non-return: 'Anāvṛttiḥ śabdād anāvṛttiḥ śabdāt'.",
+  chapters: [
+    BRAHMASUTRA_ADHYAYA_1,
+    BRAHMASUTRA_ADHYAYA_2,
+    BRAHMASUTRA_ADHYAYA_3,
+    BRAHMASUTRA_ADHYAYA_4
+  ]
+};

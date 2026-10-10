@@ -1,0 +1,473 @@
+import { TextEntry } from "./types";
+
+export const KENOPANISAD_GRANTHA: TextEntry = {
+  id: "kenopanisad",
+  title: "Kenopaniṣad",
+  transliteratedTitle: "Kenopaniṣad / Talavakāropaniṣad (केनोपनिषद्)",
+  author: "Sāmaveda (Jaiminīya / Talavakāra Śākhā)",
+  century: "Vedic Antiquity (Śruti Fountainhead)",
+  school: "Vedic Śruti Root (All-Vedānta Fountainhead)",
+  paramparaId: "vedic_root",
+  schoolTag: "Śruti-Prasthāna",
+  foundationalText: "Sāmaveda Talavakāra / Jaiminīya Brāhmaṇa (9th Adhyāya)",
+  totalVersesOrSutras: "35 Mantras across Four Khaṇḍas (Verses & Prose)",
+  language: "Vedic Sanskrit (छान्दस-संस्कृतम्)",
+  scriptStyle: "Talavakāra Brāhmaṇopaniṣad Recension",
+  description: "The Kenopaniṣad (Talavakāra Upaniṣad) of the Sāmaveda investigates the ultimate animating impulse behind human consciousness, questioning by whose impulse (Kena) the mind thinks, the life-breath stirs, and the senses perceive. Spanning four profound Khaṇḍas, it demonstrates that Brahman is the unobjectifiable Ear of the ear, Eye of the eye, and Mind of the mind ('Nedam yadidam upāsate'); reveals the epistemological paradox that Brahman is known when realized as beyond mental knowing; dramatizes the famous Yakṣopākhyāna wherein the fire-god Agni and wind-god Vāyu cannot burn or move a mere blade of grass before the mysterious Yakṣa, before Umā Haimavatī reveals It to Indra as Brahman; and concludes with the sublime meditation on Brahman as the Flash of Lightning (Vidyut) and Supreme Beloved (Tadvanam).",
+  refutationsDet: "Refutes the objectification of the Divine (worshiping finite mental constructs, sensory forms, or ritual entities as the Absolute: 'nedam yad idam upāsate'); refutes intellectual arrogance ('if you think you know Brahman well, you know very little'); and shatters the pride of cosmic deities through the blade-of-grass ordeal.",
+  supportsDet: "Establishes Brahman as the pure transcendental Subject and Witness of all cognitive faculties (Śrotrasya Śrotram, Manaso Manaḥ); introduces Pratibodha-vidita (awakening in and through every cognition); presents Umā Haimavatī as the revealer of Brahmavidyā; and establishes Tapas (austerity), Dama (self-restraint), and Karma (dedicated work) as the firm foundation of Upaniṣadic wisdom.",
+  chapters: [
+    {
+      id: "kena-khanda-1",
+      chapterTitle: "First Khaṇḍa: The Inward Controller & 'Not This Which People Worship'",
+      chapterTitleSanskrit: "प्रथमः खण्डः — केनेषितम् एवं नेदं यदिदमुपासते",
+      summary: "Inquires into the ultimate sovereign power directing the mind, vital breath, speech, and senses; identifies Brahman as the transcendent witness behind all cognitive faculties; and through fivefold refrain firmly asserts that Brahman is the unobjectifiable Subject, not any finite object of worship.",
+      verses: [
+        {
+          id: "kena-1-1",
+          number: "Khaṇḍa 1, Mantra 1",
+          title: "The Foundational Inquiry into the Impeller of Consciousness",
+          mulaSanskrit: "केनेषितं पतति प्रेषितं मनः केन प्राणः प्रथमः प्रैति युक्तः । केनेषितां वाचमिमां वदन्ति चक्षुःश्रोत्रं क उ देवो युनक्ति ॥ १ ॥",
+          mulaIast: "keneṣitaṁ patati preṣitaṁ manaḥ kena prāṇaḥ prathamaḥ praiti yuktaḥ | keneṣitāṁ vācam imāṁ vadanti cakṣuḥ śrotraṁ ka u devo yunakti || 1 ||",
+          padaccheda: "केन, इषितम्, पतति, प्रेषितम्, मनः, केन, प्राणः, प्रथमः, प्रैति, युक्तः, केन, इषिताम्, वाचम्, इमाम्, वदन्ति, चक्षुः, श्रोत्रम्, कः, उ, देवः, युनक्ति",
+          anvaya: "केन इषितं प्रेषितं मनः पतति ? केन युक्तः प्रथमः प्राणः प्रैति ? केन इषिताम् इमां वाचं वदन्ति ? कः उ देवः चक्षुः श्रोत्रं युनक्ति ?",
+          bhashyaExtract: "केनेषितं केन ईप्सितम् अभिप्रेतं सत् पतति गच्छति स्वविषयं प्रति प्रेषितं केन प्रयुक्तं प्रेरितं मनः... कोऽसौ देवः स्वामी सर्वकरणप्रवृत्तिहेतुः इति प्रश्नः ।",
+          englishTranslation: "By whom willed and directed does the mind alight upon its objects? By whom commanded does the primary Life-Breath (Prāṇa) go forth on its course? By whose will do people utter this speech? And what luminous Power (Deva) directs the eye and the ear?",
+          commentaryNotes: "The disciple's profound epistemological inquiry that opens the Upaniṣad. The question recognizes that inert physiological organs cannot coordinate themselves; there must be an inward conscious Director."
+        },
+        {
+          id: "kena-1-2",
+          number: "Khaṇḍa 1, Mantra 2",
+          title: "The Ear of the Ear and Mind of the Mind",
+          mulaSanskrit: "श्रोत्रस्य श्रोत्रं मनसो मनो यद्वाचो ह वाचं स उ प्राणस्य प्राणः । चक्षुषश्चक्षुरतिमुच्य धीराः प्रेत्यास्माल्लोकादमृता भवन्ति ॥ २ ॥",
+          mulaIast: "śrotrasya śrotraṁ manaso mano yad vāco ha vācaṁ sa u prāṇasya prāṇaḥ | cakṣuṣaś cakṣur atimucya dhīrāḥ pretyāsmāl lokād amṛtā bhavanti || 2 ||",
+          padaccheda: "श्रोत्रस्य, श्रोत्रम्, मनसः, मनः, यत्, वाचः, ह, वाचम्, सः, उ, प्राणस्य, प्राणः, चक्षुषः, चक्षुः, अतिमुच्य, धीराः, प्रेत्य, अस्मात्, लोकात्, अमृताः, भवन्ति",
+          anvaya: "यत् श्रोत्रस्य श्रोत्रम्, मनसो मनः, वाचो ह वाचम्, स उ प्राणस्य प्राणः, चक्षुषः चक्षुः । धीराः (एतेभ्यः इन्द्रियेभ्यः) अतिमुच्य अस्मात् लोकात् प्रेत्य अमृताः भवन्ति ।",
+          bhashyaExtract: "श्रोत्रादीनां स्वविषयाभिव्यञ्जनसामर्थ्यं यच्चैतन्यज्योतिषा दीपितम्, तदेव ब्रह्म । धीरा बुद्धिमन्त इन्द्रियात्मभावं परित्यज्य अमृता भवन्ति ।",
+          englishTranslation: "It is the Ear of the ear, the Mind of the mind, the Speech of speech, the Life of life, and the Eye of the eye. Renouncing identification with these instruments, the wise, departing from this world, become immortal.",
+          commentaryNotes: "Brahman is not an object heard or seen, but the ultimate conscious principle through whose illumination hearing, seeing, thinking, and vitalizing are rendered possible. Disidentifying from sensory instruments yields immortality."
+        },
+        {
+          id: "kena-1-3",
+          number: "Khaṇḍa 1, Mantra 3",
+          title: "Beyond the Reach of Senses, Speech, and Mind",
+          mulaSanskrit: "न तत्र चक्षुर्गच्छति न वाग्गच्छति नो मनः । न विद्मो न विजानीमो यथैतदनुशिष्यात् ॥ ३ ॥",
+          mulaIast: "na tatra cakṣur gacchati na vāg gacchati no manaḥ | na vidmo na vijānīmo yathaitad anuśiṣyāt || 3 ||",
+          padaccheda: "न, तत्र, चक्षुः, गच्छति, न, वाक्, गच्छति, नो, मनः, न, विद्मः, न, विजानीमः, यथा, एतत्, अनुशिष्यात्",
+          anvaya: "तत्र चक्षुः न गच्छति, वाक् न गच्छति, नो मनः । न विद्मः, न विजानीमः यथा एतत् अनुशिष्यात् ।",
+          bhashyaExtract: "सर्वविषयप्रकाशनसामर्थ्यं यस्य, स स्वयं न विषयीभवति । अतो न विद्मो वयमेतद्ब्रह्म कीदृशमिति, न च विजानीमो यथा येन प्रकारेणैतद्ब्रह्म शिष्याय उपदिशेत् ।",
+          englishTranslation: "There the eye cannot go, nor speech, nor the mind. We know It not, nor do we discern how one could teach It.",
+          commentaryNotes: "Affirms the radical transcendence of the subject. The eye cannot see its own retina; the knife cannot cut itself. Because Brahman is the ultimate Knower, It cannot be turned into an object of empirical pedagogy."
+        },
+        {
+          id: "kena-1-4",
+          number: "Khaṇḍa 1, Mantra 4",
+          title: "Distinct from the Known and Above the Unknown",
+          mulaSanskrit: "अन्यदेव तद्विदितादथो अविदितादधि । इति शुश्रुम पूर्वेषां ये नस्तद्व्याचचक्षिरे ॥ ४ ॥",
+          mulaIast: "anyad eva tad viditād atho aviditād adhi | iti śuśruma pūrveṣāṁ ye nas tad vyācacakṣire || 4 ||",
+          padaccheda: "अन्यत्, एव, तत्, विदितात्, अथो, अविदितात्, अधि, इति, शुश्रुम, पूर्वेषाम्, ये, नः, तत्, व्याचचक्षिरे",
+          anvaya: "तत् विदितात् अन्यद् एव, अथो अविदिताद् अधि । इति पूर्वेषां धीराणां वचनं शुश्रुम, ये नः तत् व्याचचक्षिरे ।",
+          bhashyaExtract: "विदितं नाम ज्ञातं सर्वं प्रपञ्चजातम्, ततोऽन्यत् । अविदितमज्ञातं प्रकृति-कारणादिकम्, ततोऽप्यधि उपरि । एवं सर्वोपाधिरहितं शुद्धं ब्रह्मैवेत्युपदेशपरम्परा ।",
+          englishTranslation: "That is indeed distinct from the known, and moreover, It is above the unknown. Thus have we heard from the ancient masters who clearly explained It to us.",
+          commentaryNotes: "The 'known' comprises all objective, differentiated phenomena (Vyakta); the 'unknown' comprises the unmanifest cosmic matrix (Avyakta). Brahman transcends both as their foundational Conscious Ground."
+        },
+        {
+          id: "kena-1-5",
+          number: "Khaṇḍa 1, Mantra 5",
+          title: "That Which Cannot Be Expressed by Speech",
+          mulaSanskrit: "यद्वाचानभ्युदितं येन वागभ्युद्यते । तदेव ब्रह्म त्वं विद्धि नेदं यदिदमुपासते ॥ ५ ॥",
+          mulaIast: "yad vācānabhyuditaṁ yena vāg abhyudyate | tad eva brahma tvaṁ viddhi nedaṁ yad idam upāsate || 5 ||",
+          padaccheda: "यत्, वाचा, अनभ्युदितम्, येन, वाक्, अभ्युद्यते, तत्, एव, ब्रह्म, त्वम्, विद्धि, न, इदम्, यत्, इदम्, उपासते",
+          anvaya: "यद् वाचा अनभ्युदितम्, येन वाग् अभ्युद्यते, तद् एव त्वं ब्रह्म विद्धि, न इदं यद् इदम् (जनाः) उपासते ।",
+          bhashyaExtract: "यत् चैतन्यं वाचा न प्रकाश्यते, येन चैतन्यज्योतिषा वाक् स्वविषये प्रवर्तते, तदेव निरतिशयं ब्रह्म विद्धि । न त्विदमुपाधिपरिच्छिन्नं यल्लोका उपासते ।",
+          englishTranslation: "That which cannot be expressed by speech, but by which speech is expressed—know That alone to be Brahman, and not this which people worship here as an object.",
+          commentaryNotes: "Begins the monumental fivefold refrain ('Nedam yadidam upāsate'). Rejects the notion that Brahman is an external object, deity, or conceptual entity fabricated by mental imagery."
+        },
+        {
+          id: "kena-1-6",
+          number: "Khaṇḍa 1, Mantra 6",
+          title: "That Which Cannot Be Thought by the Mind",
+          mulaSanskrit: "यन्मनसा न मनुते येनाहुर्मनो मतम् । तदेव ब्रह्म त्वं विद्धि नेदं यदिदमुपासते ॥ ६ ॥",
+          mulaIast: "yan manasā na manute yenāhur mano matam | tad eva brahma tvaṁ viddhi nedaṁ yad idam upāsate || 6 ||",
+          padaccheda: "यत्, मनसा, न, मनुते, येन, आहुः, मनः, मतम्, तत्, एव, ब्रह्म, त्वम्, विद्धि, न, इदम्, यत्, इदम्, उपासते",
+          anvaya: "यत् मनसा न मनुते, येन मनः मतम् (इति) आहुः, तद् एव त्वं ब्रह्म विद्धि, न इदं यद् इदम् उपासते ।",
+          bhashyaExtract: "मनः संकल्पविकल्पात्मकम् अन्तःकरणं यत् विषयीकर्तुं न शक्नोति, येन चिदात्मना मनः संवेद्यं भवति, तदेव ब्रह्म ।",
+          englishTranslation: "That which one cannot comprehend through the mind, but by which, they say, the mind itself is cognized—know That alone to be Brahman, and not this which people worship here.",
+          commentaryNotes: "The mind can only think of limited forms and mental concepts. Brahman is the pure Light of Awareness that illumines the mind itself."
+        },
+        {
+          id: "kena-1-7",
+          number: "Khaṇḍa 1, Mantra 7",
+          title: "That Which Cannot Be Seen by the Eye",
+          mulaSanskrit: "यच्चक्षुषा न पश्यति येन चक्षूंषि पश्यति । तदेव ब्रह्म त्वं विद्धि नेदं यदिदमुपासते ॥ ७ ॥",
+          mulaIast: "yac cakṣuṣā na paśyati yena cakṣūṁṣi paśyati | tad eva brahma tvaṁ viddhi nedaṁ yad idam upāsate || 7 ||",
+          padaccheda: "यत्, चक्षुषा, न, पश्यति, येन, चक्षूंषि, पश्यति, तत्, एव, ब्रह्म, त्वम्, विद्धि, न, इदम्, यत्, इदम्, उपासते",
+          anvaya: "यत् चक्षुषा न पश्यति, येन चक्षूंषि पश्यति, तद् एव त्वं ब्रह्म विद्धि, न इदं यद् इदम् उपासते ।",
+          bhashyaExtract: "यच्चैतन्यरूपं चक्षुरिन्द्रियेण न गृह्यते, येन तु चक्षुषः सर्वं रूपग्रहणं भवति, तदेव ब्रह्म ।",
+          englishTranslation: "That which one cannot see with the eye, but by which the eyes are able to see—know That alone to be Brahman, and not this which people worship here.",
+          commentaryNotes: "Visual sensation is dependent upon optical nerves and light, but sight itself is enlivened by the indivisible witness-consciousness (Sākṣin)."
+        },
+        {
+          id: "kena-1-8",
+          number: "Khaṇḍa 1, Mantra 8",
+          title: "That Which Cannot Be Heard by the Ear",
+          mulaSanskrit: "यच्छ्रोत्रेण न शृणोति येन श्रोत्रमिदं श्रुतम् । तदेव ब्रह्म त्वं विद्धि नेदं यदिदमुपासते ॥ ८ ॥",
+          mulaIast: "yac chrotreṇa na śṛṇoti yena śrotram idaṁ śrutam | tad eva brahma tvaṁ viddhi nedaṁ yad idam upāsate || 8 ||",
+          padaccheda: "यत्, श्रोत्रेण, न, शृणोति, येन, श्रोत्रम्, इदम्, श्रुतम्, तत्, एव, ब्रह्म, त्वम्, विद्धि, न, इदम्, यत्, इदम्, उपासते",
+          anvaya: "यत् श्रोत्रेण न शृणोति, येन इदं श्रोत्रं श्रुतम् (व्यापारयोग्यं कृतम्), तद् एव त्वं ब्रह्म विद्धि, न इदं यद् इदम् उपासते ।",
+          bhashyaExtract: "दिक्श्रोत्राकाशप्रयुक्तं शब्दग्रहणं येन चिद्रूपेण प्रकाशते, तदेव ब्रह्म विद्धि ।",
+          englishTranslation: "That which one cannot hear with the ear, but by which this ear is rendered hearing—know That alone to be Brahman, and not this which people worship here.",
+          commentaryNotes: "Auditory perception perceives vibrations in space; Brahman is the transcendental conscious matrix that registers the sound and the silence."
+        },
+        {
+          id: "kena-1-9",
+          number: "Khaṇḍa 1, Mantra 9",
+          title: "That Which Cannot Be Breathed by Life-Breath",
+          mulaSanskrit: "यत्प्राणेन न प्राणिति येन प्राणः प्रणीयते । तदेव ब्रह्म त्वं विद्धि नेदं यदिदमुपासते ॥ ९ ॥",
+          mulaIast: "yat prāṇena na prāṇiti yena prāṇaḥ praṇīyate | tad eva brahma tvaṁ viddhi nedaṁ yad idam upāsate || 9 ||",
+          padaccheda: "यत्, प्राणेन, न, प्राणिति, येन, प्राणः, प्रणीयते, तत्, एव, ब्रह्म, त्वम्, विद्धि, न, इदम्, यत्, इदम्, उपासते",
+          anvaya: "यत् प्राणेन न प्राणिति, येन प्राणः प्रणीयते, तद् एव त्वं ब्रह्म विद्धि, न इदं यद् इदम् उपासते ।",
+          bhashyaExtract: "यत् घ्राणेन वा प्राणवायुना न स्पृश्यते न चेष्टते, येन तु स्वयं प्राणः स्वकर्मणि प्रेरयते, तदेव ब्रह्म ।",
+          englishTranslation: "That which one cannot breathe with the vital breath, but by which the vital breath is directed forward—know That alone to be Brahman, and not this which people worship here.",
+          commentaryNotes: "Concludes the first Khaṇḍa. Biological breath moves under the invisible sovereignty of Brahman, which is never an objectified commodity or localized idol."
+        }
+      ]
+    },
+    {
+      id: "kena-khanda-2",
+      chapterTitle: "Second Khaṇḍa: The Epistemological Paradox & Pratibodha",
+      chapterTitleSanskrit: "द्वितीयः खण्डः — प्रतिबोधविदितम् एवं विज्ञानाविज्ञानमीमांसा",
+      summary: "Exposes the delusion of claiming to know Brahman as a graspable object; articulates the profound non-dual paradox that Brahman is known when realized as unobjectified; introduces Pratibodha-vidita (realization in every pulse of consciousness); and urges immediate realization in this human life.",
+      verses: [
+        {
+          id: "kena-2-1",
+          number: "Khaṇḍa 2, Mantra 1",
+          title: "The Fallacy of Superficial Knowledge",
+          mulaSanskrit: "यदि मन्यसे सु वेदेति दभ्रमेवापि नूनं त्वं वेत्थ ब्रह्मणो रूपं यदस्य त्वं यदस्य देवेष्वथ नु मीमांस्यमेव ते मन्ये विदितम् ॥ १ ॥",
+          mulaIast: "yadi manyase suvedeti dabhram evāpi nūnaṁ tvaṁ vettha brahmaṇo rūpaṁ yad asya tvaṁ yad asya deveṣv atha nu mīmāṁsyam eva te manye viditam || 1 ||",
+          padaccheda: "यदि, मन्यसे, सु, वेद, इति, दभ्रम्, एव, अपि, नूनम्, त्वम्, वेत्थ, ब्रह्मणः, रूपम्, यत्, अस्य, त्वम्, यत्, अस्य, देवेषु, अथ, नु, मीमांस्यम्, एव, ते, मन्ये, विदितम्",
+          anvaya: "यदि 'सु वेद' इति मन्यसे, नूनं त्वं ब्रह्मणः दभ्रम् एव रूपं वेत्थ, यद् अस्य त्वम्, यद् अस्य देवेषु । अथ नु ते मीमांस्यम् एव, (शिष्यः आह) — मन्ये विदितम् इति ।",
+          bhashyaExtract: "यद्यात्मानं सुवेदेति मन्यसे, तदा अल्पमेव ब्रह्मणो रूपं जानासि, घटादिवद्विषयत्वप्रसङ्गात् । अध्यात्ममधिदैवं च यदस्य रूपं तद् विचार्यमेव ।",
+          englishTranslation: "The Master says: 'If you think, \"I know Brahman well,\" then surely you know but very little of Its true nature—whether manifest in yourself or among the gods. Therefore, Brahman is still to be investigated by you.' The disciple, after deep contemplation, replies: 'I think It is now comprehended!'",
+          commentaryNotes: "The Guru checks premature intellectual conceit. Knowing Brahman is not like knowing an external objective fact; claiming mastery over It proves one has merely conceptualized a mental image."
+        },
+        {
+          id: "kena-2-2",
+          number: "Khaṇḍa 2, Mantra 2",
+          title: "The Subtle Paradox of Non-Dual Comprehension",
+          mulaSanskrit: "नाहं मन्ये सुवेदेति नो न वेदेति वेद च । यो नस्तद्वेद तद्वेद नो न वेदेति वेद च ॥ २ ॥",
+          mulaIast: "nāhaṁ manye suvedeti no na vedeti veda ca | yo nas tad veda tad veda no na vedeti veda ca || 2 ||",
+          padaccheda: "न, अहम्, मन्ये, सुवेद, इति, नो, न, वेद, इति, वेद, च, यः, नः, तत्, वेद, तत्, वेद, नो, न, वेद, इति, वेद, च",
+          anvaya: "अहं 'सु वेद' इति न मन्ये, 'नो न वेद' इति वेद च । नः मध्ये यः तत् वेद, स तत् वेद, 'नो न वेदेति वेद च' इति ।",
+          bhashyaExtract: "न सुवेदेत्येकान्तेन जानामि, नापि न वेदेत्यज्ञातोऽस्मि, प्रत्यगात्मतया स्फुरणात् । य एतद्विरोधपरिहारं जानाति स एव वेद ।",
+          englishTranslation: "The disciple declares: 'I do not think I know It well; nor do I think I know It not, for I know It! He among us who understands this statement, understands It—namely: \"I do not know that I know It not, yet I know It.\"'",
+          commentaryNotes: "Captures the refined dialectic of Self-realization: Brahman is not an object known by a subject ('I do not know It as an object'), nor is It completely unknown, because It is the very Light by which one knows everything."
+        },
+        {
+          id: "kena-2-3",
+          number: "Khaṇḍa 2, Mantra 3",
+          title: "Unknown to Those Who Know, Known to Those Who Know Not",
+          mulaSanskrit: "यस्यामतं तस्य मतं मतं यस्य न वेद सः । अविज्ञातं विजानतां विज्ञातमविजानताम् ॥ ३ ॥",
+          mulaIast: "yasyāmataṁ tasya mataṁ mataṁ yasya na veda saḥ | avijñātaṁ vijānatāṁ vijñātam avijānatām || 3 ||",
+          padaccheda: "यस्य, अमतम्, तस्य, मतम्, मतम्, यस्य, न, वेद, सः, अविज्ञातम्, विजानताम्, विज्ञातम्, अविजानताम्",
+          anvaya: "यस्य अमतं तस्य मतम्, यस्य मतं स न वेद । विजानताम् अविज्ञातम्, अविजानतां विज्ञातम् ।",
+          bhashyaExtract: "यस्य अमतं न ज्ञेयकोटिनिक्षिप्तं तस्य सम्यङ्मृतम् । यस्य तु बुद्धिविषयतया मतं स न वेद । परिच्छिन्नत्वेन विजानताम् अविज्ञातम्, ज्ञातृत्वरहितानां विज्ञातम् ।",
+          englishTranslation: "To whomsoever It is unthought (not an object of thought), to him It is known; he to whom It is a thought (an objectified concept), knows It not. It is uncomprehended by those who think they know It, and truly known by those who know they cannot objectify It.",
+          commentaryNotes: "One of the most celebrated aphorisms in world mysticism. The moment consciousness attempts to stand outside itself and grasp itself as a mental object, it fails; when conceptual grasping ceases, the Self shines in its intrinsic radiance."
+        },
+        {
+          id: "kena-2-4",
+          number: "Khaṇḍa 2, Mantra 4",
+          title: "Pratibodha-viditam: Realized in Every Pulse of Consciousness",
+          mulaSanskrit: "प्रतिबोधविदितं मतममृतत्वं हि विन्दते । आत्मना विन्दते वीर्यं विद्यया विन्दतेऽमृतम् ॥ ४ ॥",
+          mulaIast: "pratibodha-viditaṁ matam amṛtatvaṁ hi vindate | ātmanā vindate vīryaṁ vidyayā vindate'mṛtam || 4 ||",
+          padaccheda: "प्रतिबोध-विदितम्, मतम्, अमृतत्वम्, हि, विन्दते, आत्मना, विन्दते, वीर्यम्, विद्यया, विन्दते, अमृतम्",
+          anvaya: "प्रतिबोधविदितं मतं (चेत्), हि अमृतत्वं विन्दते । आत्मना वीर्यं विन्दते, विद्यया अमृतं विन्दते ।",
+          bhashyaExtract: "बोधं बोधं प्रति विदितं सर्वप्रत्ययदर्शि चिन्मात्रतया अनुगतं यज्ज्ञानं तदमृतत्वसाधनम् । आत्मना स्वस्वरूपावबोधेन वीर्यं बलं विन्दते, विद्यया च अमृतं मोक्षम् ।",
+          englishTranslation: "When Brahman is realized in and through every state of consciousness (Pratibodha-viditam), one indeed attains immortality. Through the Self one attains spiritual strength (vīrya), and through divine knowledge one attains the deathless state (amṛtam).",
+          commentaryNotes: "Śaṅkara's quintessential teaching: Pratibodha-vidita means that the Self is not found in an exotic trance alone, but is the unchanging conscious witness underlying every fleeting perception, thought, and cognition."
+        },
+        {
+          id: "kena-2-5",
+          number: "Khaṇḍa 2, Mantra 5",
+          title: "The Urgency of Realization: Truth in This Life",
+          mulaSanskrit: "इह चेदवेदीदथ सत्यमस्ति न चेदिहावेदीन्महती विनष्टिः । भूतेषु भूतेषु विचित्य धीराः प्रेत्यास्माल्लोकादमृता भवन्ति ॥ ५ ॥",
+          mulaIast: "iha ced avedīd atha satyam asti na ced ihāvedīn mahatī vinaṣṭiḥ | bhūteṣu bhūteṣu vicitya dhīrāḥ pretyāsmāl lokād amṛtā bhavanti || 5 ||",
+          padaccheda: "इह, चेत्, अवेदीत्, अथ, सत्यम्, अस्ति, न, चेत्, इह, अवेदीत्, महती, विनष्टिः, भूतेषु, भूतेषु, विचित्य, धीराः, प्रेत्य, अस्मात्, लोकात्, अमृताः, भवन्ति",
+          anvaya: "इह चेद् अवेदीद् अथ सत्यम् अस्ति, इह चेन् न अवेदीन् महती विनष्टिः । धीराः भूतेषु भूतेषु विचित्य अस्मात् लोकात् प्रेत्य अमृताः भवन्ति ।",
+          bhashyaExtract: "इहैव मानुषे जन्मनि चेदात्मानं वेत्ति, तर्हि परमार्थसत्यमस्ति जीवनसाफल्यम् । न चेदवेदीत्तर्हि महती संसारचक्रभ्रमणात्मिका विनष्टिः ।",
+          englishTranslation: "If one has known It here in this very life, then there is true fulfillment; if one has not known It here, immense is the loss! Discerning the Self in each and every being, the wise, departing from this world, attain immortality.",
+          commentaryNotes: "Delivers the supreme spiritual imperative. Human embodiment is the rare sanctuary for Self-realization; squandering it without awakening to Brahman causes immense wandering in the cycles of saṁsāra."
+        }
+      ]
+    },
+    {
+      id: "kena-khanda-3",
+      chapterTitle: "Third Khaṇḍa: The Allegory of the Yakṣa & the Devas' Hubris",
+      chapterTitleSanskrit: "तृतीयः खण्डः — यक्षोपाख्यानम् (अग्नि-वायु-इन्द्र-गर्वभङ्गः)",
+      summary: "Narrates the celebrated Vedic allegory of the Yakṣa. The gods, having won victory over the demons through Brahman's power, imagine the glory belongs to themselves. Brahman appears as a mysterious Yakṣa. Agni cannot burn a blade of grass, Vāyu cannot blow it away, and when Indra approaches, the Yakṣa vanishes, replaced by the resplendent Umā Haimavatī.",
+      verses: [
+        {
+          id: "kena-3-1",
+          number: "Khaṇḍa 3, Mantra 1",
+          title: "The Victory of Brahman and the Gods' Vanity",
+          mulaSanskrit: "ब्रह्म ह देवेभ्यो विजिग्ये तस्य ह ब्रह्मणो विजये देवा अमहीयन्त त ऐक्षन्तास्माकमेवायं विजयोऽस्माकमेवायं महिमेति ॥ १ ॥",
+          mulaIast: "brahma ha devebhyo vijigye tasya ha brahmaṇo vijaye devā amahīyanta ta aikṣantāsmākam evāyaṁ vijayo'smākam evāyaṁ mahimeti || 1 ||",
+          padaccheda: "ब्रह्म, ह, देवेभ्यः, विजिग्ये, तस्य, ह, ब्रह्मणः, विजये, देवाः, अमहीयन्त, ते, ऐक्षन्त, अस्माकम्, एव, अयम्, विजयः, अस्माकम्, एव, अयम्, महिमा, इति",
+          anvaya: "ब्रह्म ह देवेभ्यः विजिग्ये । तस्य ब्रह्मणो विजये देवाः अमहीयन्त । ते ऐक्षन्त — 'अस्माकम् एव अयम् विजयः, अस्माकम् एव अयम् महिमा' इति ।",
+          bhashyaExtract: "देवासुरसंग्रामे ईश्वराधीनमेव देवानां जयः, किन्तु देवेषु अभिमान उदपादि 'वयमेव जिग्युः' इति । तद्गर्वशमनार्थं ब्रह्म प्रादुरासीत् ।",
+          englishTranslation: "Brahman, indeed, achieved a victory for the gods. Yet in that victory of Brahman, the gods grew vain and exalted themselves, boasting: 'Ours alone is this victory! Ours alone is this glory!'",
+          commentaryNotes: "Sets the stage for the dramatic allegory. Cosmic powers and individual egos inevitably forget that their talents and triumphs proceed from the sole sovereign energy of Brahman."
+        },
+        {
+          id: "kena-3-2",
+          number: "Khaṇḍa 3, Mantra 2",
+          title: "The Appearance of the Mysterious Yakṣa",
+          mulaSanskrit: "तद्धैषां विजज्ञौ तेभ्यो ह प्रादुर्बभूव तन्न व्यजानत किमिदं यक्षमिति ॥ २ ॥",
+          mulaIast: "tad dhaiṣāṁ vijajñau tebhyo ha prādurbabhūva tan na vyajānata kim idaṁ yakṣam iti || 2 ||",
+          padaccheda: "तत्, ह, एषाम्, विजज्ञौ, तेभ्यः, ह, प्रादुर्बभूव, तत्, न, व्यजानत, किम्, इदम्, यक्षम्, इति",
+          anvaya: "तत् ह एषां (गर्वं) विजज्ञौ, तेभ्यः ह प्रादुर्बभूव । तत् न व्यजानत — 'किम् इदं यक्षम्' इति ।",
+          bhashyaExtract: "ब्रह्म तेषां मिथ्याभिमानं विदित्वा महता अद्भुतेन पूज्येन रूपेण प्रादुर्भूतम् । देवाश्च तन्न विज्ञातवन्तः ।",
+          englishTranslation: "Brahman knew their vanity, and appeared before them in a wondrous, awe-inspiring form (Yakṣa). But they did not discern who this venerable Yakṣa was.",
+          commentaryNotes: "Yakṣa here denotes an adorable, awe-inspiring, and enigmatic spiritual presence that defies sensory identification."
+        },
+        {
+          id: "kena-3-3",
+          number: "Khaṇḍa 3, Mantra 3",
+          title: "Deputing Agni to Investigate the Yakṣa",
+          mulaSanskrit: "तेऽग्निमब्रुवन् जातवेद एतद्विजानीहि किमेतद्यक्षमिति तथेति ॥ ३ ॥",
+          mulaIast: "te'gnim abruvan jātaveda etad vijānīhi kim etad yakṣam iti tatheti || 3 ||",
+          padaccheda: "ते, अग्निम्, अब्रुवन्, जातवेदः, एतत्, विजानीहि, किम्, एतत्, यक्षम्, इति, तथा, इति",
+          anvaya: "ते अग्निम् अब्रुवन् — 'हे जातवेदः ! एतत् विजानीहि, किम् एतत् यक्षम्' इति । सः 'तथा' इति (प्रतिपेदे) ।",
+          bhashyaExtract: "जातवेदः सर्वज्ञकल्प, हे पावक, त्वमेतत्पूज्यं सत्त्वं परीक्षस्वेति प्रार्थना ।",
+          englishTranslation: "They said to Agni: 'O Jātavedas (All-Knowing Fire)! Find out what this mysterious Yakṣa is.' He agreed, saying: 'So be it.'",
+          commentaryNotes: "Agni, celebrated in the Ṛgveda as Jātavedas (the knower of all created things), is chosen first to decipher the mystery."
+        },
+        {
+          id: "kena-3-4",
+          number: "Khaṇḍa 3, Mantra 4",
+          title: "Agni's Self-Assertion before the Yakṣa",
+          mulaSanskrit: "तदभ्यद्रवत्तमभ्यवदत् कोऽसीत्यग्निर्वा अहमस्मीत्यब्रवीज्जातवेदा वा अहमस्मीति ॥ ४ ॥",
+          mulaIast: "tad abhyadravat tam abhyavadat ko'sīty agnir vā aham asmīty abravīj jātavedā vā aham asmīti || 4 ||",
+          padaccheda: "तत्, अभ्यद्रवत्, तम्, अभ्यवदत्, कः, असि, इति, अग्निः, वा, अहम्, अस्मि, इति, अब्रवीत्, जातवेदाः, वा, अहम्, अस्मि, इति",
+          anvaya: "तत् अभ्यद्रवत् । तम् (यक्षः) अभ्यवदत् — 'कः असि' इति । (अग्निः) अब्रवीत् — 'अग्निर् वा अहम् अस्मि, जातवेदा वा अहम् अस्मि' इति ।",
+          bhashyaExtract: "अग्निस्तदभिमुखं जगाम । यक्षेण पृष्टः सन् अहङ्कारेण स्वाभिधानं प्रख्यातनामद्वयं चोवाच ।",
+          englishTranslation: "Agni hastened towards It. The Yakṣa asked him: 'Who are you?' He replied proudly: 'I am verily Agni; indeed, I am the famous Jātavedas!'",
+          commentaryNotes: "Reflects the ego's instinct to present its titles and credentials when confronted with transcendent reality."
+        },
+        {
+          id: "kena-3-5",
+          number: "Khaṇḍa 3, Mantra 5",
+          title: "Agni's Boast of Universal Combustion",
+          mulaSanskrit: "तस्मिंस्त्वयि किं वीर्यमित्यपीदं सर्वं दहेयं यदिदं पृथिव्यामिति ॥ ५ ॥",
+          mulaIast: "tasmiṁs tvayi kiṁ vīryam ity apīdaṁ sarvaṁ daheyaṁ yad idaṁ pṛthivyām iti || 5 ||",
+          padaccheda: "तस्मिन्, त्वयि, किम्, वीर्यम्, इति, अपि, इदम्, सर्वम्, दहेयम्, यत्, इदम्, पृथिव्याम्, इति",
+          anvaya: "(यक्षः उवाच) — 'तस्मिंस्त्वयि किं वीर्यम् ?' इति । (अग्निः उवाच) — 'पृथिव्यां यदिदं सर्वम्, अपीदं दहेयम्' इति ।",
+          bhashyaExtract: "त्वयि प्रख्याते कीदृशं सामर्थ्यमित्युक्ते, अस्यां पृथिव्यां स्थावरं जङ्गमं वा सर्वं भस्मसात् कर्तुं शक्नोमीत्यग्नेर्गर्वोक्तिः ।",
+          englishTranslation: "The Yakṣa asked: 'What power is there in you who possess such a name?' Agni boasted: 'I can burn to ashes everything whatsoever that exists on this earth!'",
+          commentaryNotes: "The fire-principle identifies itself entirely with its cosmic power of destruction, oblivious that its heat is derived from Brahman."
+        },
+        {
+          id: "kena-3-6",
+          number: "Khaṇḍa 3, Mantra 6",
+          title: "The Ordeal of the Blade of Grass: Agni's Defeat",
+          mulaSanskrit: "तस्मै तृणं निदधावेतद्दहेति तदुपप्रेयाय सर्वजवेन तन्न शशाक दग्धुं स तत एव निववृते नैतदशकं विज्ञातुं यदेतद्यक्षमिति ॥ ६ ॥",
+          mulaIast: "tasmai tṛṇaṁ nidadhāv etad daheti tad upapreyāya sarvajavena tan na śaśāka dagdhuṁ sa tata eva nivavṛte naitad aśakaṁ vijñātuṁ yad etad yakṣam iti || 6 ||",
+          padaccheda: "तस्मै, तृणम्, निदधौ, एतत्, दह, इति, तत्, उपप्रेयाय, सर्व-जवेन, तत्, न, शशाक, दग्धुम्, सः, ततः, एव, निववृते, न, एतत्, अशकम्, विज्ञातुम्, यत्, एतत्, यक्षम्, इति",
+          anvaya: "तस्मै तृणं निदधौ — 'एतद् दह' इति । तत् सर्वजवेन उपप्रेयाय, तत् दग्धुं न शशाक । सः ततः एव निववृते — 'एतद् यद् यक्षम् एतद् विज्ञातुं न अशकम्' इति ।",
+          bhashyaExtract: "यक्षेण पुरतो निक्षिप्तं शुष्कं तृणमात्रमपि ज्वलनसमर्थोऽग्निः सर्वोत्साहेनापि दग्धुं नाशक्नोत् । लज्जितः सन् देवानामन्तिकं प्रत्याजगाम ।",
+          englishTranslation: "The Yakṣa placed a mere blade of grass before him, saying: 'Burn this!' Agni rushed at it with all his blazing speed, yet could not burn it! He retreated from there in humiliation, telling the gods: 'I could not discover who this Yakṣa is.'",
+          commentaryNotes: "Without the underlying grace and will of Brahman, the all-consuming fire of the universe cannot scorch even the dry tip of a blade of grass."
+        },
+        {
+          id: "kena-3-7",
+          number: "Khaṇḍa 3, Mantra 7",
+          title: "Deputing Vāyu to Inquire into the Yakṣa",
+          mulaSanskrit: "अथ वायुमब्रुवन् वायवेतद्विजानीहि किमेतद्यक्षमिति तथेति ॥ ७ ॥",
+          mulaIast: "atha vāyum abruvan vāyav etad vijānīhi kim etad yakṣam iti tatheti || 7 ||",
+          padaccheda: "अथ, वायुम्, अब्रुवन्, वायो, एतत्, विजानीहि, किम्, एतत्, यक्षम्, इति, तथा, इति",
+          anvaya: "अथ वायुम् अब्रुवन् — 'हे वायो ! एतत् विजानीहि, किम् एतत् यक्षम्' इति । सः 'तथा' इति (प्रतिपेदे) ।",
+          bhashyaExtract: "अथानन्तरं सर्वस्पर्शनेन्द्रियाधिपतिं वायुं नियुञ्जते देवाः ।",
+          englishTranslation: "Then they said to Vāyu: 'O Vāyu! Ascertain what this Yakṣa is.' He agreed, saying: 'So be it.'",
+          commentaryNotes: "Next, the cosmic Wind and Breath (Vāyu / Mātariśvan), representing motion, kinetics, and cosmic Prāṇa, is sent forth."
+        },
+        {
+          id: "kena-3-8",
+          number: "Khaṇḍa 3, Mantra 8",
+          title: "Vāyu's Self-Assertion before the Yakṣa",
+          mulaSanskrit: "तदभ्यद्रवत्तमभ्यवदत्कोऽसीति वायुर्वा अहमस्मीत्यब्रवीन्मातरिश्वा वा अहमस्मीति ॥ ८ ॥",
+          mulaIast: "tad abhyadravat tam abhyavadat ko'sīti vāyur vā aham asmīty abravīn mātariśvā vā aham asmīti || 8 ||",
+          padaccheda: "तत्, अभ्यद्रवत्, तम्, अभ्यवदत्, कः, असि, इति, वायुः, वा, अहम्, अस्मि, इति, अब्रवीत्, मातरिश्वा, वा, अहम्, अस्मि, इति",
+          anvaya: "तत् अभ्यद्रवत् । तम् अभ्यवदत् — 'कः असि' इति । 'वायुर् वा अहम् अस्मि, मातरिश्वा वा अहम् अस्मि' इति अब्रवीत् ।",
+          bhashyaExtract: "मातरि अन्तरिक्षे श्वयति गच्छतीति मातरिश्वा । अहमेव सर्वव्यापी प्राण इति वायोर्गर्वः ।",
+          englishTranslation: "Vāyu rushed towards It. The Yakṣa asked him: 'Who are you?' He replied boldly: 'I am verily Vāyu; indeed, I am the great Mātariśvan who moves through cosmic space!'",
+          commentaryNotes: "Like Agni, Vāyu proclaims his venerable Vedic names with immense pride in his kinetic omnipotence."
+        },
+        {
+          id: "kena-3-9",
+          number: "Khaṇḍa 3, Mantra 9",
+          title: "Vāyu's Boast of Cosmic Velocity and Seizure",
+          mulaSanskrit: "तस्मिंस्त्वयि किं वीर्यमित्यपीदं सर्वमाददीय यदिदं पृथिव्यामिति ॥ ९ ॥",
+          mulaIast: "tasmiṁs tvayi kiṁ vīryam ity apīdaṁ sarvam ādadīya yad idaṁ pṛthivyām iti || 9 ||",
+          padaccheda: "तस्मिन्, त्वयि, किम्, वीर्यम्, इति, अपि, इदम्, सर्वम्, आददीय, यत्, इदम्, पृथिव्याम्, इति",
+          anvaya: "(यक्षः उवाच) — 'तस्मिंस्त्वयि किं वीर्यम् ?' इति । (वायुः उवाच) — 'पृथिव्यां यदिदं सर्वम्, अपीदं सर्वम् आददीय' इति ।",
+          bhashyaExtract: "पृथिव्यां यत्किञ्चिद्वर्तते तद् युगपदेव आदातुमुद्धर्तुं चालयितुं शक्नोमीति वायोर्वीर्यवर्णनम् ।",
+          englishTranslation: "The Yakṣa asked: 'What power is there in you who possess such a name?' Vāyu declared: 'I can sweep away and lift up everything whatsoever that exists on this earth!'",
+          commentaryNotes: "Vāyu boasts of the irresistible power of the cyclone and hurricane that can uproot trees and shake mountains."
+        },
+        {
+          id: "kena-3-10",
+          number: "Khaṇḍa 3, Mantra 10",
+          title: "The Ordeal of the Blade of Grass: Vāyu's Defeat",
+          mulaSanskrit: "तस्मै तृणं निदधावेतदादत्स्वेति तदुपप्रेयाय सर्वजवेन तन्न शशाकादातुं स तत एव निववृते नैतदशकं विज्ञातुं यदेतद्यक्षमिति ॥ १० ॥",
+          mulaIast: "tasmai tṛṇaṁ nidadhāv etad ādatsveti tad upapreyāya sarvajavena tan na śaśākādātuṁ sa tata eva nivavṛte naitad aśakaṁ vijñātuṁ yad etad yakṣam iti || 10 ||",
+          padaccheda: "तस्मै, तृणम्, निदधौ, एतत्, आदत्स्व, इति, तत्, उपप्रेयाय, सर्व-जवेन, तत्, न, शशाक, आदातुम्, सः, ततः, एव, निववृते, न, एतत्, अशकम्, विज्ञातुम्, यत्, एतत्, यक्षम्, इति",
+          anvaya: "तस्मै तृणं निदधौ — 'एतद् आदत्स्व' इति । तत् सर्वजवेन उपप्रेयाय, तत् आदातुं न शशाक । सः ततः एव निववृते — 'एतद् यद् यक्षम् एतद् विज्ञातुं न अशकम्' इति ।",
+          bhashyaExtract: "तदपि तृणमात्रं वायुः सर्वबलेनापि कम्पयितुं चालयितुं वा नाशक्नोत् । ततो भग्नोत्साहः सन्निववृते ।",
+          englishTranslation: "The Yakṣa placed that same blade of grass before him, saying: 'Lift this up!' Vāyu stormed upon it with all his furious tempestuous force, yet could not budge it an inch! He retreated in bewilderment, reporting: 'I could not discover what this Yakṣa is.'",
+          commentaryNotes: "The cosmic hurricane stands powerless before a blade of grass when the Divine Will withholds the kinetic breath."
+        },
+        {
+          id: "kena-3-11",
+          number: "Khaṇḍa 3, Mantra 11",
+          title: "Indra's Approach and the Disappearance of the Yakṣa",
+          mulaSanskrit: "अथेन्द्रमब्रुवन्मघवन्नेतद्विजानीहि किमेतद्यक्षमिति तथेति तदभ्यद्रवत्तस्मात्तिरोदधे ॥ ११ ॥",
+          mulaIast: "athendram abruvan maghavann etad vijānīhi kim etad yakṣam iti tatheti tad abhyadravat tasmāt tirodadhe || 11 ||",
+          padaccheda: "अथ, इन्द्रम्, अब्रुवन्, मघवन्, एतत्, विजानीहि, किम्, एतत्, यक्षम्, इति, तथा, इति, तत्, अभ्यद्रवत्, तस्मात्, तिरोदधे",
+          anvaya: "अथ इन्द्रम् अब्रुवन् — 'हे मघवन् ! एतत् विजानीहि, किम् एतत् यक्षम्' इति । स 'तथा' इति तत् अभ्यद्रवत्, तस्मात् (यक्षः) तिरोदधे ।",
+          bhashyaExtract: "इन्द्रः सर्वदेवेश्वरः परमसमर्थः । स यदा यक्षं प्रति जगाम, तदैव तद्यक्षं तिरोहितमन्तर्हितम्, इन्द्रस्य स्वाभिमाननिवृत्तये साक्षाद्दर्शनं न ददौ ।",
+          englishTranslation: "Then they said to Indra: 'O Maghavan (Lord of Divine Splendor)! Discover for us what this Yakṣa is.' Saying 'So be it,' Indra hastened towards It; but before him, the Yakṣa vanished from sight!",
+          commentaryNotes: "To Indra—the king of gods and personification of pure intellect/Lordship—Brahman refused even to appear as a finite form, dissolving objective manifestation entirely."
+        },
+        {
+          id: "kena-3-12",
+          number: "Khaṇḍa 3, Mantra 12",
+          title: "The Descent of Umā Haimavatī: The Revealer of Wisdom",
+          mulaSanskrit: "स तस्मिन्नेवाकाशे स्त्रियमाजगाम बहु शोभमानामुमां हैमवतीं तां होवाच किमेतद्यक्षमिति ॥ १२ ॥",
+          mulaIast: "sa tasminn evākāśe striyam ājagāma bahuśobhamānām umāṁ haimavatīṁ tāṁ hovāca kim etad yakṣam iti || 12 ||",
+          padaccheda: "सः, तस्मिन्, एव, आकाशे, स्त्रियम्, आजगाम, बहु-शोभमानाम्, उमाम्, हैमवतीम्, ताम्, ह, उवाच, किम्, एतत्, यक्षम्, इति",
+          anvaya: "सः तस्मिन् एव आकाशे बहुशोभमानां स्त्रियम् उमां हैमवतीम् आजगाम । तां ह उवाच — 'किम् एतत् यक्षम्' इति ।",
+          bhashyaExtract: "यस्मिन्नाकाशे यक्षस्तिरोहितस्तस्मिन्नेव विद्यारूपां हैमवतीं हैमवतस्य दुहितरमुमां ब्रह्मविद्यास्वरूपिणीं दृष्ट्वा पृष्टवान् — किमेतद्यक्षमिति ।",
+          englishTranslation: "In that very expanse of space where the Yakṣa had stood, Indra encountered a Woman of dazzling, supreme beauty—Umā, daughter of the snowy Himālayas (Haimavatī). To Her he spoke: 'What was this wondrous Yakṣa?'",
+          commentaryNotes: "The foundational revelation of Umā (Parā Śakti) as Brahmavidyā incarnate. When intellectual ego dissolves, the Divine Mother / Wisdom Goddess appears to reveal the nature of the Absolute."
+        }
+      ]
+    },
+    {
+      id: "kena-khanda-4",
+      chapterTitle: "Fourth Khaṇḍa: The Revelation, Cosmic Similes, & the Foundations of Upaniṣad",
+      chapterTitleSanskrit: "चतुर्थः खण्डः — ब्रह्मोपदेशः, विद्युदादेशः, तद्वनोपासना एवं प्रतिष्ठा",
+      summary: "Umā reveals that the Yakṣa was Brahman through whose victory the gods triumphed; explains why Agni, Vāyu, and especially Indra hold pre-eminence; imparts the twofold contemplation of Brahman as the Flash of Lightning (Adhidaivata) and innermost Flash of Mind (Adhyātma); teaches the meditation on Brahman as 'Tadvanam' (The All-Adorable Beloved); and concludes with the ethical pillars (Tapas, Dama, Karma, Satya) sustaining Upaniṣadic Brahmavidyā.",
+      verses: [
+        {
+          id: "kena-4-1",
+          number: "Khaṇḍa 4, Mantra 1",
+          title: "Umā's Revelation of Brahman",
+          mulaSanskrit: "ब्रह्मेति होवाच ब्रह्मणो वा एतद्विजये महीयध्वमिति ततो हैव विदाञ्चकार ब्रह्मेति ॥ १ ॥",
+          mulaIast: "brahmeti hovāca brahmaṇo vā etad vijaye mahīyadhvam iti tato haiva vidāñcakāra brahmeti || 1 ||",
+          padaccheda: "ब्रह्म, इति, ह, उवाच, ब्रह्मणः, वा, एतत्, विजये, महीयध्वम्, इति, ततः, ह, एव, विदाञ्चकार, ब्रह्म, इति",
+          anvaya: "(सा) 'ब्रह्म' इति ह उवाच । 'ब्रह्मणो वा एतद् विजये यूयं महीयध्वम्' इति । ततः ह एव (इन्द्रः) 'ब्रह्म' इति विदाञ्चकार ।",
+          bhashyaExtract: "सा उवाच — यन्महद्भूतं तद् ब्रह्मैव, तस्यैव विजये यूयम् अहङ्कारेण आत्मनो महिमानं मन्यमाना महीयध्वम् । तत एव इन्द्रो निश्चितवान् ।",
+          englishTranslation: "She replied: 'It was Brahman! It was indeed through the victory of Brahman that you have attained this glory!' From that revelation alone did Indra realize: 'It was Brahman!'",
+          commentaryNotes: "Umā Haimavatī unveils the truth: individual and cosmic agents are merely instruments of Brahman's sovereign cosmic play (Līlā)."
+        },
+        {
+          id: "kena-4-2",
+          number: "Khaṇḍa 4, Mantra 2",
+          title: "The Pre-eminence of Agni, Vāyu, and Indra",
+          mulaSanskrit: "तस्माद्वा एते देवा अतितरामिवान्यान्देवान्यदग्निर्वायुरिन्द्रस्ते ह्येनन्नेदिष्ठं पस्पर्शुस्ते ह्येनत्प्रथमो विदाञ्चकार ब्रह्मेति ॥ २ ॥",
+          mulaIast: "tasmād vā ete devā atitarām ivānyān devān yad agnir vāyur indras te hy enan nediṣṭhaṁ pasparśus te hy enat prathamo vidāñcakāra brahmeti || 2 ||",
+          padaccheda: "तस्मात्, वै, एते, देवाः, अतितराम्, इव, अन्यान्, देवान्, यत्, अग्निः, वायुः, इन्द्रः, ते, हि, एनत्, नेदिष्ठम्, पस्पर्शुः, ते, हि, एनत्, प्रथमः, विदाञ्चकार, ब्रह्म, इति",
+          anvaya: "तस्माद् वै एते देवाः अन्यान् देवान् अतितराम् इव (अतिशेते), यद् अग्निः, वायुः, इन्द्रः । ते हि एनत् नेदिष्ठं पस्पर्शुः, ते हि एनत् प्रथमः 'ब्रह्म' इति विदाञ्चकार ।",
+          bhashyaExtract: "नेदिष्ठम् अन्तिकतमं यथा स्यात्तथा स्पृष्टवन्तः सम्भाषणदर्शनादिना, तस्मादेते देवाः श्रेष्ठतरा अभवन् ।",
+          englishTranslation: "Therefore, these gods—Agni, Vāyu, and Indra—excel, as it were, all other gods, for they touched It closest (conversed with and approached It), and they were the first to know It as Brahman.",
+          commentaryNotes: "Proximity to the Divine through inquiry and humility elevates those seekers above all others."
+        },
+        {
+          id: "kena-4-3",
+          number: "Khaṇḍa 4, Mantra 3",
+          title: "The Supreme Pre-eminence of Indra",
+          mulaSanskrit: "तस्माद्वा इन्द्रोऽतितरामिवान्यान्देवान्स ह्येनन्नेदिष्ठं पस्पर्श स ह्येनत्प्रथमो विदाञ्चकार ब्रह्मेति ॥ ३ ॥",
+          mulaIast: "tasmād vā indro'titarām ivānyān devān sa hy enan nediṣṭhaṁ pasparśa sa hy enat prathamo vidāñcakāra brahmeti || 3 ||",
+          padaccheda: "तस्मात्, वै, इन्द्रः, अतितराम्, इव, अन्यान्, देवान्, सः, हि, एनत्, नेदिष्ठम्, पस्पर्श, सः, हि, एनत्, प्रथमः, विदाञ्चकार, ब्रह्म, इति",
+          anvaya: "तस्माद् वै इन्द्रः अन्यान् देवान् अतितराम् इव (अतिशेते), स हि एनत् नेदिष्ठं पस्पर्श, स हि एनत् प्रथमः 'ब्रह्म' इति विदाञ्चकार ।",
+          bhashyaExtract: "इन्द्रो ह्युमामुपगम्य साक्षाद् ब्रह्मेति शुश्राव, तस्मादग्निवाय्वोरप्यतिशेते सः ।",
+          englishTranslation: "Therefore indeed did Indra excel even other gods, for he approached nearest to It, and he was the first to understand directly: 'It is Brahman!'",
+          commentaryNotes: "Indra represents the refined, contemplative intellect (Buddhi) capable of receiving Brahmavidyā directly from the Divine Mother."
+        },
+        {
+          id: "kena-4-4",
+          number: "Khaṇḍa 4, Mantra 4",
+          title: "The Cosmic Analogy: The Flash of Lightning",
+          mulaSanskrit: "तस्यैष आदेशो यदेतद्विद्युतो व्यद्युतदा३ इतीन्न्यमीमिषदा३ इत्यधिदैवतम् ॥ ४ ॥",
+          mulaIast: "tasyaiṣa ādeśo yad etad vidyuto vyadyutadā3 itīn nyamīmiṣadā3 ity adhidaivatam || 4 ||",
+          padaccheda: "तस्य, एषः, आदेशः, यत्, एतत्, विद्युतः, व्यद्युतत्, आ३, इति, इत्, न्यमीमिषत्, आ३, इति, अधिदैवतम्",
+          anvaya: "तस्य एषः आदेशः — यद् एतद् विद्युतः व्यद्युतद् आ३, इति इत् न्यमीमिषद् आ३ इति, (एतत्) अधिदैवतम् ।",
+          bhashyaExtract: "आदेश उपदेशो दृष्टान्तः । विद्युतः सहसा प्रकाश इव चक्षुषो निमेषणमिव च ब्रह्मणः स्फुरणम् । इदम् अधिदैवतं दर्शनम् ।",
+          englishTranslation: "Now, this is the instruction concerning Brahman through a cosmic analogy (Adhidaivata): It is like the sudden, blinding flash of lightning, or like the twinkling of an eye—such is Its instantaneous cosmic revelation!",
+          commentaryNotes: "The cosmic instruction (Adhidaivata-ādeśa). Divine revelation is not a protracted mechanical deduction; like lightning splitting dark night, Brahman's presence illuminates all existence in a timeless flash."
+        },
+        {
+          id: "kena-4-5",
+          number: "Khaṇḍa 4, Mantra 5",
+          title: "The Psychological Analogy: The Inward Flash of Mind",
+          mulaSanskrit: "अथाध्यात्मं यदेतद्गच्छतीव च मनोऽनेन चैतदुपस्मरत्यभीक्ष्णं सङ्कल्पः ॥ ५ ॥",
+          mulaIast: "athādhyātmaṁ yad etad gacchatīva ca mano'nena caitad upasmaraty abhīkṣṇaṁ saṅkalpaḥ || 5 ||",
+          padaccheda: "अथ, अध्यात्मम्, यत्, एतत्, गच्छति, इव, च, मनः, अनेन, च, एतत्, उपस्मरति, अभीक्ष्णम्, सङ्कल्पः",
+          anvaya: "अथ अध्यात्मम् — यद् एतत् मनः (ब्रह्म प्रति) गच्छति इव, अनेन च एतत् (ब्रह्म) अभीक्ष्णं सङ्कल्पः उपस्मरति ।",
+          bhashyaExtract: "अध्यात्मं देहान्तर्वर्ति प्रत्यक्स्वरूपेणोपदेशः । मनसा यत् संवेद्यते स्मर्यते संसङ्कल्प्यते च, तत्र यत् प्रकाशरूपं तत् ब्रह्मैव ।",
+          englishTranslation: "Next, the instruction concerning Brahman within the individual self (Adhyātma): It is that which the mind seems to approach, and by which the mind repeatedly remembers and conceptualizes It through meditative intent.",
+          commentaryNotes: "The inward instruction (Adhyātma-ādeśa). Within the heart, the mind feels drawn towards the silent Witness, constantly remembering and meditating upon the luminous source of its own existence."
+        },
+        {
+          id: "kena-4-6",
+          number: "Khaṇḍa 4, Mantra 6",
+          title: "Tadvanam: The Supreme Beloved Adored by All Beings",
+          mulaSanskrit: "तद्ध तद्वनं नाम तद्वनमित्युपासितव्यं स य एतदेवं वेदाभि हैनं सर्वाणि भूतानि संवाञ्छन्ति ॥ ६ ॥",
+          mulaIast: "tad dha tad-vanaṁ nāma tad-vanam ity upāsitavyaṁ sa ya etad evaṁ vedābhi hainaṁ sarvāṇi bhūtāni saṁvāñchanti || 6 ||",
+          padaccheda: "तत्, ह, तत्-वनम्, नाम, तत्-वनम्, इति, उपासितव्यम्, सः, यः, एतत्, एवम्, वेद, अभि, ह, एनम्, सर्वाणि, भूतानि, संवाञ्छन्ति",
+          anvaya: "तत् ह 'तद्वनम्' नाम, 'तद्वनम्' इति उपासितव्यम् । सः यः एतद् एवं वेद, एनं सर्वाणि भूतानि अभि संवाञ्छन्ति ह ।",
+          bhashyaExtract: "तस्य ब्रह्मणः प्रसिद्धं नाम 'तद्वनम्' — तस्य प्राणिजातस्य वननीयं सम्भजनीयं प्रियतमं स्वरूपम् । य एवं वेद स सर्वभूतप्रियतमो भवति ।",
+          englishTranslation: "That Brahman is indeed known by the sacred name 'Tadvanam' (The All-Adorable, the Supreme Beloved of all). As 'Tadvanam' should It be meditated upon. He who realizes It thus—unto him all living beings yearn in deep love and reverence!",
+          commentaryNotes: "'Tadvanam' derives from 'van' (to love, adore, desire). Brahman is the supreme object of love in all beings; whoever realizes this universal attractiveness becomes deeply cherished by all creation."
+        },
+        {
+          id: "kena-4-7",
+          number: "Khaṇḍa 4, Mantra 7",
+          title: "The Imparting of Brahmavidyā",
+          mulaSanskrit: "उपनिषदं भो ब्रूहीत्युक्ता त उपनिषद्ब्राह्मीं वाव त उपनिषदमब्रूमेति ॥ ७ ॥",
+          mulaIast: "upaniṣadaṁ bho brūhīty uktā ta upaniṣad brāhmīṁ vāva ta upaniṣadam abrūmeti || 7 ||",
+          padaccheda: "उपनिषदम्, भोः, ब्रूहि, इति, उक्ता, ते, उपनिषत्, ब्राह्मीम्, वाव, ते, उपनिषदम्, अब्रूम, इति",
+          anvaya: "(शिष्यः आह) — 'भोः ! उपनिषदं ब्रूहि' इति । (गुरुः आह) — 'ते उपनिषद् उक्ता, ब्राह्मीं वाव ते उपनिषदम् अब्रूम' इति ।",
+          bhashyaExtract: "शिष्येणोक्तां गुह्यां विद्यां पृष्टवान् । गुरुराह — उक्ता ते परमात्मविद्या, यामेतावन्तं कालं व्याख्यातवन्तः सैव ब्राह्मी उपनिषत् ।",
+          englishTranslation: "The student said: 'Revered Sir, please teach me the sacred secret of the Upaniṣad!' The Guru replied: 'The Upaniṣad has already been declared to you! Verily, we have just declared to you the supreme Upaniṣad of Brahman!'",
+          commentaryNotes: "The disciple asks if there is some further secret code; the master assures him that the wisdom already disclosed—disidentifying the Witness from the senses and realizing Brahman—is the complete and ultimate Upaniṣad."
+        },
+        {
+          id: "kena-4-8",
+          number: "Khaṇḍa 4, Mantra 8",
+          title: "The Pillars of Upaniṣad: Tapas, Dama, Karma, and Satya",
+          mulaSanskrit: "तस्यै तपो दमः कर्मेति प्रतिष्ठा वेदाः सर्वाङ्गानि सत्यमायतनम् ॥ ८ ॥",
+          mulaIast: "tasyai tapo damaḥ karmeti pratiṣṭhā vedāḥ sarvāṅgāni satyam āyatanam || 8 ||",
+          padaccheda: "तस्यै, तपः, दमः, कर्म, इति, प्रतिष्ठा, वेदाः, सर्व-अङ्गानि, सत्यम्, आयतनम्",
+          anvaya: "तस्यै (ब्राह्म्या उपनिषदः) तपः, दमः, कर्म इति प्रतिष्ठा, वेदाः सर्वाङ्गानि, सत्यम् आयतनम् ।",
+          bhashyaExtract: "तप इन्द्रियैकाग्र्यम्, दमो मनस उपशमः, कर्माग्निहोत्रादि प्रतिष्ठा पादौ । वेदाः षडङ्गसहिताः सर्वाङ्गानि । सत्यं निष्कपटवचनं यथार्थदर्शनं चास्या आयतनं निवासस्थानम् ।",
+          englishTranslation: "Of this sacred wisdom, Tapas (inner austerity and focus), Dama (self-restraint of senses), and Karma (dedicated unselfish action) are the firm foundation (feet); the Vedas and their auxiliary limbs are its limbs; and Satya (Truthfulness) is its sacred abode.",
+          commentaryNotes: "Provides the practical sādhanā framework. Without inner fire (Tapas), sensory poise (Dama), ethical duty (Karma), and adherence to Truth (Satya), Upaniṣadic wisdom remains merely theoretical."
+        },
+        {
+          id: "kena-4-9",
+          number: "Khaṇḍa 4, Mantra 9",
+          title: "Final Benediction: Conquering Sin and Abiding in Immortality",
+          mulaSanskrit: "यो वा एतामेवं वेदापहत्य पाप्मानमनन्ते स्वर्गे लोके ज्येये प्रतितिष्ठति प्रतितिष्ठति ॥ ९ ॥",
+          mulaIast: "yo vā etām evaṁ vedāpahatya pāpmānam anante svarge loke jyeye pratitiṣṭhati pratitiṣṭhati || 9 ||",
+          padaccheda: "यः, वै, एताम्, एवम्, वेद, अपहत्य, पाप्मानम्, अनन्ते, स्वर्गे, लोके, ज्येये, प्रतितिष्ठति, प्रतितिष्ठति",
+          anvaya: "यः वै एताम् (उपनिषदम्) एवं वेद, सः पाप्मानम् अपहत्य अनन्ते ज्येये स्वर्गे लोके प्रतितिष्ठति, प्रतितिष्ठति ।",
+          bhashyaExtract: "य एवं यथोक्तां ब्रह्मविद्यां वेद, स सर्वसंसारबीजं पाप्मानम् अधर्मं विधूय अनन्ते नाशरहिते ज्येये सर्वोत्कृष्टे परमानन्दरूपे ब्रह्मणि प्रतितिष्ठति । द्विरुक्तिरादरार्था ।",
+          englishTranslation: "He indeed who realizes this sacred Upaniṣad thus, shaking off all evil and ignorance, is established eternally in the infinite, supreme, transcendent Realm of Light and Bliss—yes, he is established forever!",
+          commentaryNotes: "The climactic Phala-śruti (fruit of realization). 'Anante svarge loke' refers not to an impermanent heavenly realm, but to the infinite, undecaying, transcendent Bliss of Brahman. The repetition ('pratitiṣṭhati pratitiṣṭhati') marks the auspicious completion of the scripture."
+        }
+      ]
+    }
+  ]
+};

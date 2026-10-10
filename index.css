@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=Tiro+Devanagari+Sanskrit:ital@0;1&display=swap');
+@import "tailwindcss";
+
+/* Ensure all primary Latin serif fonts map Devanagari character ranges to Tiro Devanagari Sanskrit */
+@font-face {
+  font-family: 'Gentium Book Plus';
+  font-style: normal;
+  font-weight: 100 900;
+  src: url('https://fonts.gstatic.com/s/tirodevanagarisanskrit/v7/MCoAzBbr09vVUgVBM8FWu_yZdZkhkg-I0nUlb59pEg.ttf') format('truetype');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+A8E0-A8FF;
+}
+
+@font-face {
+  font-family: 'Gentium Book Plus';
+  font-style: italic;
+  font-weight: 100 900;
+  src: url('https://fonts.gstatic.com/s/tirodevanagarisanskrit/v7/MCoGzBbr09vVUgVBM8FWu_yZdZkhkg-I0nUlb59ZEIsu.ttf') format('truetype');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+A8E0-A8FF;
+}
+
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 100 900;
+  src: url('https://fonts.gstatic.com/s/tirodevanagarisanskrit/v7/MCoAzBbr09vVUgVBM8FWu_yZdZkhkg-I0nUlb59pEg.ttf') format('truetype');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+A8E0-A8FF;
+}
+
+@font-face {
+  font-family: 'Cardo';
+  font-style: normal;
+  font-weight: 100 900;
+  src: url('https://fonts.gstatic.com/s/tirodevanagarisanskrit/v7/MCoAzBbr09vVUgVBM8FWu_yZdZkhkg-I0nUlb59pEg.ttf') format('truetype');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+A8E0-A8FF;
+}
+
+@font-face {
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 100 900;
+  src: url('https://fonts.gstatic.com/s/tirodevanagarisanskrit/v7/MCoAzBbr09vVUgVBM8FWu_yZdZkhkg-I0nUlb59pEg.ttf') format('truetype');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+A8E0-A8FF;
+}
+
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 100 900;
+  src: url('https://fonts.gstatic.com/s/tirodevanagarisanskrit/v7/MCoAzBbr09vVUgVBM8FWu_yZdZkhkg-I0nUlb59pEg.ttf') format('truetype');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+A8E0-A8FF;
+}
+
+@theme {
+  --font-sans: "Times New Roman", Times, "Cardo", "Gentium Book Plus", "Tiro Devanagari Sanskrit", "Tiro Bangla", serif;
+  --font-serif: "Gentium Book Plus", "EB Garamond", "Cormorant Garamond", "Tiro Devanagari Sanskrit", "Cinzel", "Cardo", "Times New Roman", "Tiro Bangla", serif;
+  --font-cardo: "Cardo", "Gentium Book Plus", "EB Garamond", "Times New Roman", "Tiro Devanagari Sanskrit", serif;
+  --font-times: "Times New Roman", Times, Georgia, "Tiro Devanagari Sanskrit", serif;
+  --font-devanagari: "Tiro Devanagari Sanskrit", serif;
+  --font-bengali: "Adarsha Lipi", "AdorshoLipi", "Tiro Bangla", "Noto Serif Bengali", serif;
+  --font-bangla: "Adarsha Lipi", "AdorshoLipi", "Tiro Bangla", "Noto Serif Bengali", serif;
+  --font-indic: var(--font-indic-active, "Tiro Devanagari Sanskrit", "Tiro Bangla", serif);
+}
+
+/* Indic Script Global Dynamic Font Class */
+.font-indic,
+.indic-text,
+.sanskrit-text,
+[lang="sa"],
+[data-lipi] {
+  font-family: var(--font-indic-active, "Tiro Devanagari Sanskrit", "Tiro Bangla", serif);
+}
+
+body {
+  background: #FAF5ED; /* Warm orangish-white / golden ivory canvas */
+  background-image: 
+    radial-gradient(at 10% 10%, rgba(252, 230, 186, 0.45) 0px, transparent 50%),
+    radial-gradient(at 90% 90%, rgba(245, 215, 155, 0.35) 0px, transparent 50%);
+  background-attachment: fixed;
+  color: #2D2319;
+  font-family: "Gentium Book Plus", "Times New Roman", Times, "Cardo", "Tiro Devanagari Sanskrit", "Tiro Bangla", serif;
+  min-height: 100vh;
+}
+
+/* Diacritic-Friendly Title & Heading Rules */
+h1, h2, h3, h4, h5, h6, .font-serif, .font-title {
+  font-family: "Gentium Book Plus", "EB Garamond", "Cormorant Garamond", "Tiro Devanagari Sanskrit", "Cinzel", "Cardo", "Times New Roman", "Tiro Bangla", serif;
+  font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+}
+
+/* Custom golden scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f3e9d8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #d4af37, #bf953f, #aa771c);
+  border-radius: 4px;
+  border: 1px solid #e8d7be;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #aa771c, #d4af37, #bf953f);
+}
+
+/* Golden 3D Utility Classes */
+.gold-text-gradient {
+  background: linear-gradient(135deg, #7a520d 0%, #b8860b 25%, #8c6011 50%, #9e721d 75%, #6d4608 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 1px 2px rgba(180, 130, 30, 0.25));
+}
+
+.gold-bg-gradient {
+  background: linear-gradient(135deg, #bf953f 0%, #fcf6ba 25%, #b38728 50%, #fbf5b7 75%, #aa771c 100%);
+}
+
+.gold-bg-dark {
+  background: linear-gradient(180deg, #2b2219 0%, #1e1710 100%);
+}
+
+.card-3d-gold {
+  background: linear-gradient(145deg, #FFFFFF 0%, #FFFDF8 100%);
+  border: 1px solid rgba(191, 149, 63, 0.45);
+  box-shadow: 
+    0 10px 25px -5px rgba(160, 110, 20, 0.12),
+    0 0 12px rgba(212, 175, 55, 0.18),
+    inset 0 1px 2px #FFFFFF;
+  border-radius: 14px;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-3d-gold:hover {
+  border-color: rgba(191, 149, 63, 0.8);
+  box-shadow: 
+    0 14px 32px -5px rgba(160, 110, 20, 0.2),
+    0 0 20px rgba(212, 175, 55, 0.3),
+    inset 0 1px 2px #FFFFFF;
+  transform: translateY(-2px);
+}
+
+.btn-3d-gold {
+  background: linear-gradient(135deg, #d4af37 0%, #fff2b3 30%, #c59b27 70%, #a67c1e 100%);
+  color: #1a120b;
+  font-weight: 700;
+  border: 1px solid #ffe680;
+  box-shadow: 
+    0 4px 15px rgba(180, 130, 20, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.2);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  transition: all 0.2s ease;
+}
+
+.btn-3d-gold:hover:not(:disabled) {
+  transform: translateY(-1.5px);
+  filter: brightness(1.08);
+  box-shadow: 
+    0 6px 20px rgba(180, 130, 20, 0.45),
+    inset 0 1px 0 #FFFFFF,
+    inset 0 -2px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Smooth Programmatic Scrolling and Highlight Pulse for Spotlight Widget */
+.spotlight-smooth-scroll {
+  scroll-behavior: smooth;
+  scroll-padding-top: 1.25rem;
+  scroll-padding-bottom: 1.25rem;
+}
+
+@keyframes spotlightVersePulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(197, 155, 39, 0.5), inset 0 0 0 1px #c59b27;
+  }
+  40% {
+    box-shadow: 0 8px 30px rgba(197, 155, 39, 0.35), inset 0 0 12px rgba(212, 175, 55, 0.25);
+  }
+  100% {
+    box-shadow: 0 6px 20px rgba(140, 96, 17, 0.15), inset 0 0 0 0 transparent;
+  }
+}
+
+.spotlight-active-verse-highlight {
+  animation: spotlightVersePulse 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-3d-gold:active:not(:disabled) {
+  transform: translateY(1px);
+  box-shadow: 
+    0 2px 8px rgba(180, 130, 20, 0.3),
+    inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-3d-dark {
+  background: linear-gradient(180deg, #FAF3E6 0%, #F0E4D0 100%);
+  color: #3D2D1D;
+  border: 1px solid rgba(191, 149, 63, 0.5);
+  box-shadow: 
+    0 3px 10px rgba(160, 110, 20, 0.12),
+    inset 0 1px 0 #FFFFFF;
+  transition: all 0.2s ease;
+}
+
+.btn-3d-dark:hover:not(:disabled) {
+  border-color: rgba(191, 149, 63, 0.9);
+  color: #7A520D;
+  box-shadow: 
+    0 5px 14px rgba(160, 110, 20, 0.2),
+    0 0 10px rgba(212, 175, 55, 0.2),
+    inset 0 1px 0 #FFFFFF;
+  transform: translateY(-1px);
+}
+
+/* Style for prose and rendering markdown */
+.markdown-body {
+  font-family: var(--font-cardo);
+  line-height: 1.75;
+  color: #2D2319;
+}
+
+.markdown-body h1, .markdown-body h2, .markdown-body h3 {
+  font-family: var(--font-sans);
+  color: #735013;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.015em;
+}
+
+.markdown-body h1 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid rgba(191, 149, 63, 0.35);
+  padding-bottom: 0.5rem;
+}
+
+.markdown-body h2 {
+  font-size: 1.35rem;
+  color: #8c6011;
+}
+
+.markdown-body h3 {
+  font-size: 1.15rem;
+  color: #9e721d;
+}
+
+.markdown-body p {
+  margin-bottom: 1rem;
+}
+
+.markdown-body ul, .markdown-body ol {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  list-style-type: unset;
+}
+
+.markdown-body li {
+  margin-bottom: 0.35rem;
+}
+
+.markdown-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(160, 110, 20, 0.12);
+  border: 1px solid rgba(191, 149, 63, 0.35);
+}
+
+.markdown-body th {
+  background: linear-gradient(180deg, #FAF1E2 0%, #F2E3CA 100%);
+  color: #593e0b;
+  font-weight: 700;
+  text-align: left;
+  padding: 0.85rem;
+  border: 1px solid rgba(191, 149, 63, 0.35);
+}
+
+.markdown-body td {
+  padding: 0.85rem;
+  border: 1px solid rgba(191, 149, 63, 0.25);
+  background-color: #FFFFFF;
+}
+
+.markdown-body tr:nth-child(even) td {
+  background-color: #FAF5EC;
+}
+
+.markdown-body blockquote {
+  border-left: 4px solid #bf953f;
+  background: #FDF8ED;
+  padding: 0.75rem 1rem;
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  color: #453523;
+  margin: 1.5rem 0;
+  border-top: 1px solid rgba(191, 149, 63, 0.2);
+  border-bottom: 1px solid rgba(191, 149, 63, 0.2);
+  border-right: 1px solid rgba(191, 149, 63, 0.2);
+}
+
+.markdown-body code {
+  font-family: monospace;
+  background-color: #F8EEDC;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.85em;
+  color: #735013;
+  border: 1px solid rgba(191, 149, 63, 0.35);
+}
+
+/* Site-wide Universal Script Rules for Devanagari & Sanskrit */
+.font-devanagari, 
+.font-sanskrit,
+.sanskrit,
+.sanskrit-text,
+.sanskrit-mula,
+.mula-sanskrit,
+.sutra-sanskrit,
+.bhashya-sanskrit,
+.shloka-sanskrit,
+.mantra-sanskrit,
+.devanagari,
+.devanagari-text,
+.script-devanagari,
+:lang(sa),
+:lang(sa-Deva),
+:lang(sa-IN),
+:lang(san),
+:lang(hi), 
+:lang(mr), 
+[lang="sa"],
+[lang="sa-Deva"],
+[lang="sa-IN"],
+[lang="san"],
+[lang="hi"], 
+[lang="mr"],
+[data-language="sanskrit"],
+[data-language="sa"],
+[data-language="san"],
+[data-lang="sa"],
+[data-lang="san"],
+[data-lang="sanskrit"],
+[data-script="devanagari"],
+[data-script="sa"],
+[data-script="Deva"],
+[data-script="sa-Deva"],
+[data-sanskrit],
+[data-mula],
+[data-lipi="devanagari"],
+[data-lipi="sa"],
+[data-tag="sanskrit"],
+[data-target="sanskrit"],
+[data-active-lipi="devanagari"] .font-indic,
+[data-active-lipi="devanagari"] .indic-text,
+[data-active-lipi="devanagari"] .sanskrit-text,
+[data-active-lipi="devanagari"] [class*="indic"],
+[class*="sanskrit"],
+[class*="devanagari"] {
+  font-family: 'Tiro Devanagari Sanskrit', serif !important;
+  font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "akhn" 1, "rphf" 1, "blwf" 1, "half" 1, "pstf" 1, "vatu" 1, "cjct" 1;
+}
+
+.font-bengali,
+.font-bangla, 
+:lang(bn), 
+[lang="bn"],
+[data-script="bengali"],
+.script-bengali {
+  font-family: 'Tiro Bangla', 'Noto Serif Bengali', serif !important;
+}
+
+/* Generic Fallback for Devanagari & Bengali text elements */
+[class*="devanagari"], [class*="sanskrit"] {
+  font-family: 'Tiro Devanagari Sanskrit', 'Tiro Devanagari Hindi', serif;
+}
+
+[class*="bengali"], [class*="bangla"] {
+  font-family: 'Tiro Bangla', serif;
+}
+
